@@ -1,6 +1,5 @@
 name: ProfileSetupPage_Prefecture
 description: ""
-params: {}
 node:
   key: Scaffold_f5g1qdve
 classModel:

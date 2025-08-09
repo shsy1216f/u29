@@ -17,4 +17,5 @@ props:
       inputValue: 0
       mostRecentInputValue: 0
   responsiveVisibility: {}
-parameterValues: {}
+parameterValues:
+  parameterPasses: {}

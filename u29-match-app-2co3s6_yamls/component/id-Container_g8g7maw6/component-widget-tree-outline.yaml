@@ -1,0 +1,28 @@
+node:
+  key: Container_g8g7maw6
+  children:
+    - key: Container_tdopkk9x
+      children:
+        - key: Stack_bqngxl8o
+          children:
+            - key: PageView_mrveidd9
+              children:
+                - key: PlaceholderWidget_m94em9js
+                  children:
+                    - key: Stack_cbaocpuu
+                      children:
+                        - key: Image_2tq43ga1
+                        - key: Container_8gkw5bcg
+                        - key: Column_4o837j0l
+                          children:
+                            - key: Row_jdzfbg73
+                              children:
+                                - key: Text_r582qntw
+                                - key: Text_kyqomu4u
+                                - key: Text_73vjm5kh
+                            - key: Row_4c4qoowt
+                              children:
+                                - key: Text_i29ghczy
+                                - key: Text_gdo4u0mc
+            - key: Button_54gk43vw
+            - key: Button_0uyozta0

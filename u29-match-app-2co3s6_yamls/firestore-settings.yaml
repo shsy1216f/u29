@@ -46,6 +46,15 @@ rules:
         everyone: {}
       delete:
         noOne: {}
+    0qypzljh:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        noOne: {}
     9ideh322:
       creat:
         everyone: {}
@@ -89,15 +98,6 @@ rules:
         everyone: {}
       update:
         noOne: {}
-      delete:
-        noOne: {}
-    0qypzljh:
-      creat:
-        everyone: {}
-      read:
-        everyone: {}
-      update:
-        everyone: {}
       delete:
         noOne: {}
 validation:

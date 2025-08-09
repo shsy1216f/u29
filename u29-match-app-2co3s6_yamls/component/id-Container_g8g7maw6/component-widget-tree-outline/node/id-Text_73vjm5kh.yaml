@@ -1,0 +1,45 @@
+key: Text_73vjm5kh
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: job
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: userDocument
+              key: xy1ai9
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: job
+        nodeKeyRef:
+          key: Container_g8g7maw6
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 5
+    bottomValue:
+      inputValue: 6
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

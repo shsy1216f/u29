@@ -1,6 +1,5 @@
 name: ProfileSetupPage_Profile
 description: ""
-params: {}
 node:
   key: Scaffold_sfiuatk7
 classModel:

@@ -1,0 +1,45 @@
+key: Text_r582qntw
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: name
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: userDocument
+              key: xy1ai9
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: display_name
+        nodeKeyRef:
+          key: Container_g8g7maw6
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 12
+    bottomValue:
+      inputValue: 2
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

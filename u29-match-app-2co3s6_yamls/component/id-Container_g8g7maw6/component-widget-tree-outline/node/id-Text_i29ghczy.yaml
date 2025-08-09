@@ -1,0 +1,43 @@
+key: Text_i29ghczy
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: prefecture
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: userDocument
+              key: xy1ai9
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: prefecture_name
+        nodeKeyRef:
+          key: Container_g8g7maw6
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+  padding:
+    leftValue:
+      inputValue: 12
+    bottomValue:
+      inputValue: 16
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

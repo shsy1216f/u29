@@ -1,0 +1,10 @@
+key: Container_g8g7maw6
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: UserCard
+isDummyRoot: true

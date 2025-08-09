@@ -1,7 +1,6 @@
 navigate:
   allowBack: true
   passedParameters:
-    parameterPasses: {}
     widgetClassNodeKeyRef:
       key: Scaffold_q9e8ff6o
   isNavigateBack: false

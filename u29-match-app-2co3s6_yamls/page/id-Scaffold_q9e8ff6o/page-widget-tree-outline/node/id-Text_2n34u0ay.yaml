@@ -83,6 +83,7 @@ props:
                     relation: NOT_EQUAL_TO
           combineConditions:
             operator: AND_OP
+        dynamicComponentAccess: {}
       mostRecentInputValue: true
   responsiveVisibility: {}
   opacity:

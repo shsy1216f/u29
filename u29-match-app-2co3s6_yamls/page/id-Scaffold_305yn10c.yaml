@@ -1,6 +1,5 @@
 name: ProfileSetupPage_ProfileEdit
 description: ""
-params: {}
 node:
   key: Scaffold_305yn10c
 classModel: {}

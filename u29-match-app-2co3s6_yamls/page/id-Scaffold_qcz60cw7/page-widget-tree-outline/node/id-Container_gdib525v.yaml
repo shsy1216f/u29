@@ -1,0 +1,28 @@
+key: Container_gdib525v
+type: Container
+props:
+  padding:
+    topValue:
+      inputValue: 60
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues:
+  parameterPasses:
+    xy1ai9:
+      paramIdentifier:
+        name: userDocument
+        key: xy1ai9
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        nodeKeyRef:
+          key: Scaffold_qcz60cw7
+  widgetClassNodeKeyRef:
+    key: Container_g8g7maw6
+valueKey: {}
+componentClassKeyRef:
+  key: Container_g8g7maw6

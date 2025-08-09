@@ -1,0 +1,17 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: jzm92
+      setValue:
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              returnParameter:
+                dataType:
+                  scalarType: Integer
+          nodeKeyRef:
+            key: PageView_mrveidd9
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: ps1strh3

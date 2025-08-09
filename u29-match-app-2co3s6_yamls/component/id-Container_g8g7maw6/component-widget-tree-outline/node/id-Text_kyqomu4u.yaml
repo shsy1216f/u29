@@ -1,0 +1,52 @@
+key: Text_kyqomu4u
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        operations:
+          - numberFormat: {}
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: userDocument
+                      key: xy1ai9
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: birthDate
+                nodeKeyRef:
+                  key: Container_g8g7maw6
+          customFunction:
+            name: calculateAge
+            key: 859yr
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 5
+    bottomValue:
+      inputValue: 6
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

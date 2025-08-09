@@ -62,6 +62,5 @@ props:
     opacityValue:
       inputValue: 1
     animatedOpacity: {}
-parameterValues:
-  parameterPasses: {}
+parameterValues: {}
 va

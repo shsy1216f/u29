@@ -1,0 +1,6 @@
+rootAction:
+  key: b6g0qusb
+  action:
+    key: ps1strh3
+trigger:
+  triggerType: ON_WIDGET_SWIPE

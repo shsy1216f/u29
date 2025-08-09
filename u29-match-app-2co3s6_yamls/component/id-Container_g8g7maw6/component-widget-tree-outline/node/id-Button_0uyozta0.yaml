@@ -1,0 +1,79 @@
+key: Button_0uyozta0
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        inputValue: ""
+      colorValue:
+        inputValue:
+          value: "4294967295"
+    iconPadding:
+      type: FF_PADDING_ONLY
+      rightValue:
+        inputValue: 10
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 0
+    innerPadding:
+      type: FF_PADDING_ONLY
+    hasHoverStyle: false
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 60
+      height:
+        pixelsValue:
+          inputValue: 160
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        value: "16777215"
+    showLoadingIndicatorValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 40
+        iconDataValue:
+          inputValue:
+            codePoint: 57694
+            family: MaterialIcons
+            matchTextDirection: true
+            name: chevron_left
+    iconPosition: LEADING
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 0
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: LOCAL_STATE
+                baseVariable:
+                  localState:
+                    fieldIdentifier:
+                      name: currentPageIndex
+                      key: jzm92
+                    stateVariableType: WIDGET_CLASS_STATE
+                nodeKeyRef:
+                  key: Container_g8g7maw6
+            - inputValue:
+                serializedValue: "0"
+          condition:
+            relation: NOT_EQUAL_TO
+      mostRecentInputValue: true
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 0.5
+    animatedOpacity: {}
+valueKey: {}

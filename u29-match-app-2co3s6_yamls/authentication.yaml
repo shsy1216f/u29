@@ -4,7 +4,8 @@ firebase:
     collectionIdentifier:
       name: users
       key: wsisxbek
-    write: {}
+    write:
+      updates: {}
 firebaseConfigFileInfos:
   - androidPath: users/Zkq8Nj2yyZYCyAa4eQaJdv8hDBI3/projects/u29-match-app-2co3s6/configs/kfpp8s0wnmbu/google-services.json
     iosPath: users/Zkq8Nj2yyZYCyAa4eQaJdv8hDBI3/projects/u29-match-app-2co3s6/configs/pou2nzfxmlp1/GoogleService-Info.plist
