@@ -1,0 +1,17 @@
+name: ProfileSetupPage_Birthdate
+description: ""
+node:
+  key: Scaffold_9snsqg37
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: isBirthdateValid
+          key: eouis
+        defaultValue:
+          serializedValue: "false"
+        dataType:
+          scalarType: Boolean
+          nonNullable: true
+      serializedDefaultValue:
+        - "false"

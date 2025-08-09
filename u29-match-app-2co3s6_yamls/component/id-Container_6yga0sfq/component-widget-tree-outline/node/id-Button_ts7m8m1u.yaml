@@ -1,0 +1,48 @@
+key: Button_ts7m8m1u
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        inputValue: 閉じる
+      colorValue:
+        inputValue:
+          value: "4294967295"
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 24
+    innerPadding:
+      leftValue:
+        inputValue: 16
+      rightValue:
+        inputValue: 16
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+  padding:
+    bottomValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueK

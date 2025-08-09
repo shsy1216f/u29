@@ -1,0 +1,16 @@
+key: Column_gnb09ctj
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_center
+    crossAxisAlignment: cross_axis_center
+    listSpacing: {}
+  padding:
+    topValue:
+      inputValue: 20
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

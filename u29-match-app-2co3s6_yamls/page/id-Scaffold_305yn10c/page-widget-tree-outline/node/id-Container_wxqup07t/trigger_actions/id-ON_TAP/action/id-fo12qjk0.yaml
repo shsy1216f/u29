@@ -1,0 +1,12 @@
+navigate:
+  allowBack: false
+  passedParameters:
+    widgetClassNodeKeyRef:
+      key: Scaffold_305yn10c
+  isNavigateBack: false
+  transition:
+    transitionType: INSTANT
+    durationMillis: 0
+  pageNodeKeyRef:
+    key: Scaffold_305yn10c
+key: fo12qjk0

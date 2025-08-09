@@ -1,0 +1,37 @@
+rootAction:
+  key: tln3evu0
+  conditionActions:
+    falseAction:
+      key: pialhpbu
+      action:
+        key: jvarh1v4
+    trueActions:
+      - condition:
+          variable:
+            source: LOCAL_STATE
+            baseVariable:
+              localState:
+                fieldIdentifier:
+                  name: selectedHobbies
+                  key: 2dova
+                stateVariableType: WIDGET_CLASS_STATE
+            operations:
+              - listContains:
+                  element:
+                    source: FIRESTORE_REQUEST
+                    baseVariable:
+                      firestore: {}
+                    operations:
+                      - accessDocumentField:
+                          documentProperty: REFERENCE
+                    nodeKeyRef:
+                      key: Wrap_ngz9dpqx
+            nodeKeyRef:
+              key: Scaffold_1tfu6pmt
+        trueAction:
+          key: zgaa4dx9
+          action:
+            key: fgx404dt
+    hasMultiConditions: false
+trigger:
+  triggerType: ON_TAP

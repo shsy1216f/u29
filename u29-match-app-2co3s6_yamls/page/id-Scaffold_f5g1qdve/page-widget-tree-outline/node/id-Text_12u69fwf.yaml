@@ -1,0 +1,26 @@
+key: Text_12u69fwf
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: お住まいを教えてください
+    fontWeightValue:
+      inputValue: w800
+  padding:
+    topValue:
+      inputValue: 120
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animated

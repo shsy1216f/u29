@@ -1,0 +1,7 @@
+key: PlaceholderWidget_axi1uj7r
+type: PlaceholderWidget
+props:
+  placeholderWidget: {}
+  visibility:
+    visibleValue:
+      mostRecentInputValue: false

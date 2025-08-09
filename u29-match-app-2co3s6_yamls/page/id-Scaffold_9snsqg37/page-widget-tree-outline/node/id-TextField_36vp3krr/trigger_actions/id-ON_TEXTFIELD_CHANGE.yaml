@@ -1,0 +1,6 @@
+rootAction:
+  key: u3ohz1qc
+  action:
+    key: muciajxl
+trigger:
+  triggerType: ON_TEXTFIELD_CHANGE

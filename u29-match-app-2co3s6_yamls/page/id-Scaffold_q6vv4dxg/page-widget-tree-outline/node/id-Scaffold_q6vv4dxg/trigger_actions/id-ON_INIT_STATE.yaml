@@ -1,0 +1,6 @@
+rootAction:
+  key: cbnwrt5k
+  action:
+    key: 7h30s8hc
+trigger:
+  triggerType: ON_INIT_STATE

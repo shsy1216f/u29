@@ -1,0 +1,10 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: v93a7
+      setValue:
+        inputValue:
+          serializedValue: 女性
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: tg5r

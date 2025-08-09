@@ -1,0 +1,19 @@
+key: Column_4mpdwzva
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,15 @@
+identifier:
+  name: hobby_categories
+  key: 35aqyq7k
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+  order:
+    identifier:
+      name: order
+    dataType:
+      scalarType: Integer
+description: ""

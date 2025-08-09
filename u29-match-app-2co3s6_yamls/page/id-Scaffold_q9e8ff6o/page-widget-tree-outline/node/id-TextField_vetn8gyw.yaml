@@ -1,0 +1,69 @@
+key: TextField_vetn8gyw
+type: TextField
+props:
+  padding:
+    topValue:
+      inputValue: 20
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  textField:
+    textStyle:
+      themeStyle: LABEL_MEDIUM
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      hintStyle:
+        themeStyle: LABEL_MEDIUM
+      labelStyle:
+        themeStyle: LABEL_MEDIUM
+      hintText:
+        textValue:
+          inputValue: ニックネームを入力
+      filledValue:
+        inputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 1
+      denseValue:
+        inputValue: true
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+      alignLabelWithHintValue:
+        inputValue: false
+    setStateOnChanged: true
+    width:
+      percentOfScreenSizeValue:
+        inputValue: 75
+    maxLinesValue:
+      inputValue: 1
+    debounceTimeValue:
+      inputValue: 100
+    autofocusValue:
+      inputValue: false
+    cursorColorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: TextField
+parameterValues: {}
+annotations:
+  semanticProperties: {}
+  semanticLabel:
+    inputValue: {}
+valueKey:
+  inputValue: {}
+focusConfig:
+  focusTraversalOrder:

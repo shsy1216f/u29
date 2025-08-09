@@ -1,0 +1,46 @@
+key: Image_vwed9wqk
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 198
+      height:
+        pixelsValue:
+          inputValue: 264
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 13.2
+    cacheFadeDuration: 500
+    showErrorImage: false
+    pathValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: photo_urls
+        operations:
+          - listItemAtIndex:
+              type: SPECIFIED
+              index:
+                inputValue:
+                  serializedValue: "0"
+    format: FF_IMAGE_FORMAT_AUTO
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues: {}
+valueKey: {}

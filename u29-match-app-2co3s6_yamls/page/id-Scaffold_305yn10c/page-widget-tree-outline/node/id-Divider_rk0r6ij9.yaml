@@ -1,0 +1,11 @@
+key: Divider_rk0r6ij9
+type: Divider
+props:
+  divider:
+    heightValue:
+      inputValue: 10
+    thicknessValue:
+      inputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

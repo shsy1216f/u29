@@ -1,0 +1,16 @@
+name: ProfileSetupPage_Home
+description: ""
+params: {}
+node:
+  key: Scaffold_qcz60cw7
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: currentPageIndex
+          key: 3tqx3
+        dataType:
+          scalarType: Integer
+          nonNullable: true
+      serializedDefaultValue:
+        - "0"

@@ -1,0 +1,11 @@
+key: Text_e06s84s4
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: ジェンダー
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_

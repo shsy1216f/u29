@@ -1,0 +1,5 @@
+key: Column_odig1kh9
+type: Column
+props:
+  column:
+    primary: true

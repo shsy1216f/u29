@@ -1,0 +1,13 @@
+key: 2im2wkmn
+uploadData:
+  settings:
+    allowedTypes:
+      photo: true
+      video: false
+      file: false
+    source: GALLERY
+    galleryOrCameraPickerStyle: {}
+    showSnackBar: false
+    localFileVariable: {}
+  destination: FIREBASE
+  actionName: UploadData_5

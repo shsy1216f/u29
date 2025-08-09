@@ -1,0 +1,33 @@
+key: IconButton_h3hyomug
+type: IconButton
+props:
+  iconButton:
+    buttonSize:
+      pixelsValue:
+        inputValue: 48
+    borderRadiusValue:
+      inputValue: 8
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 32
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 57694
+            family: MaterialIcons
+            matchTextDirection: true
+            name: chevron_left
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

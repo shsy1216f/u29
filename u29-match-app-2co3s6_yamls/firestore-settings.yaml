@@ -1,0 +1,105 @@
+rules:
+  collectionRules:
+    wsisxbek:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        noOne: {}
+    4t6jtn0e:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+      isPublic: false
+    rxsbc0nq:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    gtj6aiod:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        noOne: {}
+    us0ncniy:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        noOne: {}
+    9ideh322:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    0to6s2zw:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    ycaqsrcx:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    35aqyq7k:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    r10k45z6:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+    0qypzljh:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        noOne: {}
+validation:
+  lastValidatedCollectionHash: {}
+  mode: ENABLED

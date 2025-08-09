@@ -1,0 +1,11 @@
+key: Stack_gqevx2zq
+type: Stack
+props:
+  padding:
+    topValue:
+      inputValue: 15
+  stack:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75

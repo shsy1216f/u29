@@ -1,0 +1,23 @@
+key: Container_nnz0v0q5
+type: Container
+props:
+  container:
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 28
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    leftValue:
+      inputValue: 10
+    topValue:
+      inputValue: 10

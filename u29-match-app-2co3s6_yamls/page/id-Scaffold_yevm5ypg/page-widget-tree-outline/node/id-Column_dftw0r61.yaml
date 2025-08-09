@@ -1,0 +1,5 @@
+key: Column_dftw0r61
+type: Column
+props:
+  column:
+    primary: true

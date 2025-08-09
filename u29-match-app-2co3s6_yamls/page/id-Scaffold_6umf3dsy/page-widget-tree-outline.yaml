@@ -1,0 +1,22 @@
+node:
+  key: Scaffold_6umf3dsy
+  appBar:
+    key: AppBar_yezpwn65
+    leading:
+      key: IconButton_lltjpt9r
+    title:
+      key: Text_bmxvo8py
+  body:
+    key: Stack_ilumeacs
+    children:
+      - key: Column_w9bf0eh5
+        children:
+          - key: Text_v3ojyh75
+          - key: Text_ljlqjer8
+          - key: DropDown_43dejivk
+          - key: Container_xso3xse1
+            children:
+              - key: Button_34v877v3
+      - key: Container_keygqbtz
+        children:
+          - key: ProgressBar_z69nki1e

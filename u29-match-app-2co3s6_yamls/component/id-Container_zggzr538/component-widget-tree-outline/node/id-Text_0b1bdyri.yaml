@@ -1,0 +1,15 @@
+key: Text_0b1bdyri
+type: Text
+props:
+  text:
+    themeStyle: TITLE_SMALL
+    selectable: false
+    textValue:
+      inputValue: ジェンダー（変更できません）
+  padding:
+    topValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    

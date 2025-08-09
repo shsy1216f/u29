@@ -1,0 +1,28 @@
+key: ListView_9zt3q0f5
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: true
+    shrinkWrapValue:
+      inputValue: true
+  queryLoadingWidget:
+    loadingWidget: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: artist_categories
+          key: r10k45z6
+  firestore:
+    collectionIdentifier:
+      name: artist_categories
+      key: r10k45z6
+    orderBy:
+      - collectionFieldIdentifier:
+          name: order
+    hideOnEmpty: false
+  requestManagerSettings: {}

@@ -1,0 +1,15 @@
+name: ProfileSetupPage_Gender
+description: ""
+node:
+  key: Scaffold_vsbdq9vb
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: selectedGender
+          key: v93a7
+        defaultValue:
+          serializedValue: ""
+        dataType:
+          scalarType: String
+          nonNullable: false

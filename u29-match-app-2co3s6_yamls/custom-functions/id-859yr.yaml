@@ -1,0 +1,13 @@
+identifier:
+  name: calculateAge
+  key: 859yr
+arguments:
+  - identifier:
+      name: birthdate
+      key: dt7ic5
+    dataType:
+      scalarType: DateTime
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: Integer

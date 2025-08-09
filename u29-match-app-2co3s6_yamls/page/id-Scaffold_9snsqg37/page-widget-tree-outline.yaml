@@ -1,0 +1,27 @@
+node:
+  key: Scaffold_9snsqg37
+  appBar:
+    key: AppBar_yn402538
+    leading:
+      key: IconButton_709ibfl3
+    title:
+      key: Text_x3f3sffx
+  body:
+    key: Stack_pe1xoncq
+    children:
+      - key: Column_0n9tuv7h
+        children:
+          - key: Text_0qzjrijm
+          - key: Text_714ukw2q
+          - key: Row_h2oawu5n
+            children:
+              - key: TextField_36vp3krr
+              - key: TextField_qfvcakq9
+              - key: TextField_dzutig6k
+          - key: Text_8dc909ox
+          - key: Container_23bafrf8
+            children:
+              - key: Button_5e9d9cun
+      - key: Container_w5em5mdx
+        children:
+          - key: ProgressBar_jd930v3q

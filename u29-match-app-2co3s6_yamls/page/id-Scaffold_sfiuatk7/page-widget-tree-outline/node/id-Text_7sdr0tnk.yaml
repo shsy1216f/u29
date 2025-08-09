@@ -1,0 +1,37 @@
+key: Text_7sdr0tnk
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: job
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 5
+    bottomValue:
+      inputValue: 6
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

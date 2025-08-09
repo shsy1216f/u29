@@ -1,0 +1,9 @@
+key: Column_m3ggjt35
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    scrollable: true
+    primary: true
+  responsiveVisibility: {}
+name: scrollingContainer

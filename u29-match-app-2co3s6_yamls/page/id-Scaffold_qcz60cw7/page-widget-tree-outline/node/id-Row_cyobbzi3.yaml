@@ -1,0 +1,14 @@
+key: Row_cyobbzi3
+type: Row
+props:
+  row:
+    minSizeValue:
+      inputValue: true
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+themeWidgetInfo: {}

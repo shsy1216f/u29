@@ -1,0 +1,126 @@
+key: DropDown_v7o7kuxh
+type: DropDown
+props:
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  dropDown:
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 40
+    textStyle:
+      themeStyle: BODY_MEDIUM
+    margin:
+      type: FF_PADDING_ONLY
+      leftValue:
+        inputValue: 15
+    initialOption:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USERS_DATA_FIELD
+              usersDataField:
+                name: cities_name
+    hintText:
+      textValue:
+        inputValue: 市区町村
+    optionsHasKeyValues: false
+    valueType:
+      dataType:
+        scalarType: String
+    searchHintText:
+      themeStyle: LABEL_MEDIUM
+      textValue:
+        inputValue: Search...
+    fixPosition: true
+    searchTextStyle:
+      themeStyle: BODY_MEDIUM
+    label:
+      themeStyle: LABEL_MEDIUM
+    elevationValue:
+      inputValue: 2
+    borderRadiusValue:
+      inputValue: 8
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 5
+    hidesUnderlineValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 63531
+            family: MaterialIcons
+            matchTextDirection: false
+            name: keyboard_arrow_down_rounded
+    initialOptionKeyValue:
+      values:
+        - serializedValue: Option 1
+    optionsLabels:
+      values:
+        - translatableText:
+            textValue:
+              inputValue: ""
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: API_CALL
+                baseVariable:
+                  apiCall: {}
+                operations:
+                  - apiResponseField:
+                      responseField: JSON_BODY
+                  - jsonPathOperation:
+                      jsonPath: "$.response.location[:].city"
+                nodeKeyRef:
+                  key: DropDown_v7o7kuxh
+          customFunction:
+            name: convertJsonToStringList
+            key: kqbi9
+    optionsValues:
+      values:
+        - serializedValue: Option 1
+        - serializedValue: Option 2
+        - serializedValue: Option 3
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: ApiResponse
+  apiCall:
+    endpointIdentifier:
+      name: getCities
+      key: 92hg0
+    variables:
+      - variableIdentifier:
+          name: prefecture
+          key: 84170qw9
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              returnParameter:
+                dataType:
+                  scalarType: String
+          nodeKeyRef:
+            key: DropDown_k6ymvj4e
+valu

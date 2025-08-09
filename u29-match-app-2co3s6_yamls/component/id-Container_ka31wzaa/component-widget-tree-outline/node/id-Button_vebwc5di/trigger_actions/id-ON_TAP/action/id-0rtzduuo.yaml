@@ -1,0 +1,22 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        smoke:
+          fieldIdentifier:
+            name: smoke
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_jk6wvsjj
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: 0rtzduuo

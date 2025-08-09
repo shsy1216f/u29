@@ -1,0 +1,11 @@
+key: Text_700kgxa4
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: プロフィール
+    colorValue:
+      inputValue:
+        themeColor: SECONDAR

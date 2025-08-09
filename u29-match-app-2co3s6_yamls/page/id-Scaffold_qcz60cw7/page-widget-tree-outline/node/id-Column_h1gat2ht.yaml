@@ -1,0 +1,13 @@
+key: Column_h1gat2ht
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_start
+    primary: true
+    minSizeValue:
+      inputValue: true
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1

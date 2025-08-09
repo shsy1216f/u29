@@ -1,0 +1,21 @@
+identifier:
+  name: getPrefectures
+  key: 2gqod
+url: https://geoapi.heartrails.com/api/json?method=getPrefectures
+callType: GET
+jsonPathDefinitions:
+  - identifier:
+      name: prefecture
+      key: p2ktott2
+    jsonPath:
+      jsonPath: $.response.prefecture
+      returnParameter:
+        dataType:
+          listType:
+            scalarType: String
+    inferredParameter:
+      dataType:
+        listType:
+          scalarType: String
+endpointSettings:
+  escapeVariablesInRequestBody: true

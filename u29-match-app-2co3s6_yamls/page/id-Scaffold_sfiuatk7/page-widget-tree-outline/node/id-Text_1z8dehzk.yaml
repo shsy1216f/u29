@@ -1,0 +1,19 @@
+key: Text_1z8dehzk
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: "400"
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+  padding:
+    topValue:
+      inputValue: 2
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

@@ -1,0 +1,6 @@
+rootAction:
+  key: gj54eqhd
+  action:
+    key: momljehm
+trigger:
+  triggerType: ON_WIDGET_SWIPE

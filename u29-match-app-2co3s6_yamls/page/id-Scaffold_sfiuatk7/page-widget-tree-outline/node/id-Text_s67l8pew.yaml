@@ -1,0 +1,35 @@
+key: Text_s67l8pew
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: DISPLAY_NAME
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 12
+    bottomValue:
+      inputValue: 2
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

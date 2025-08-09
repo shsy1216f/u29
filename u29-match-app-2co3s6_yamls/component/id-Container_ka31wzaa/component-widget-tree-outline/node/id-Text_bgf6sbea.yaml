@@ -1,0 +1,16 @@
+key: Text_bgf6sbea
+type: Text
+props:
+  text:
+    themeStyle: TITLE_SMALL
+    selectable: false
+    textValue:
+      inputValue: たばこについて
+  padding:
+    topValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      

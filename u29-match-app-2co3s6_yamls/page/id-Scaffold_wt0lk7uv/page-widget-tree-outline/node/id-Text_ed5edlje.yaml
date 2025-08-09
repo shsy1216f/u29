@@ -1,0 +1,11 @@
+key: Text_ed5edlje
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: プレビュー
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_

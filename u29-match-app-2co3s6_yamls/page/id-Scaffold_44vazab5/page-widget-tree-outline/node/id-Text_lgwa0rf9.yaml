@@ -1,0 +1,17 @@
+key: Text_lgwa0rf9
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: メッセージ
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+va

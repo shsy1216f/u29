@@ -1,0 +1,134 @@
+key: DropDown_43dejivk
+type: DropDown
+props:
+  padding:
+    topValue:
+      inputValue: 20
+  dropDown:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    textStyle:
+      themeStyle: LABEL_MEDIUM
+    margin:
+      leftValue:
+        inputValue: 12
+      rightValue:
+        inputValue: 12
+    hintText:
+      textValue:
+        inputValue: 職業を選択
+    valueType:
+      dataType:
+        scalarType: String
+    searchHintText:
+      themeStyle: LABEL_MEDIUM
+      textValue:
+        inputValue: Search...
+    fixPosition: true
+    searchTextStyle:
+      themeStyle: BODY_MEDIUM
+    label:
+      themeStyle: LABEL_MEDIUM
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    elevationValue:
+      inputValue: 2
+    borderRadiusValue:
+      inputValue: 24
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 0
+    hidesUnderlineValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 63531
+            family: MaterialIcons
+            matchTextDirection: false
+            name: keyboard_arrow_down_rounded
+    optionsLabels:
+      values:
+        - translatableText:
+            textValue:
+              inputValue: 大学生
+        - translatableText:
+            textValue:
+              inputValue: 大学院生
+        - translatableText:
+            textValue:
+              inputValue: 専門学生
+        - translatableText:
+            textValue:
+              inputValue: 会社員
+        - translatableText:
+            textValue:
+              inputValue: 公務員
+        - translatableText:
+            textValue:
+              inputValue: 自営業
+        - translatableText:
+            textValue:
+              inputValue: フリーター
+        - translatableText:
+            textValue:
+              inputValue: その他
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - listMapOperation:
+              listMapVariable:
+                source: LIST_MAP
+                baseVariable:
+                  listMap:
+                    containingParentReturnParameter:
+                      dataType:
+                        listType:
+                          scalarType: Document
+                        subType:
+                          collectionIdentifier:
+                            name: occupations
+                            key: 0to6s2zw
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: occupation
+        nodeKeyRef:
+          key: DropDown_43dejivk
+    optionsValues:
+      values:
+        - serializedValue: Option 1
+        - serializedValue: Option 2
+        - serializedValue: Option 3
+        - serializedValue: "3"
+        - serializedValue: "4"
+        - serializedValue: "5"
+        - serializedValue: "6"
+        - serializedValue: "7"
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: occupations
+          key: 0to6s2zw
+  firestore:
+    collectionIdentifier:

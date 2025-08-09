@@ -1,0 +1,36 @@
+key: ProgressBar_jd930v3q
+type: ProgressBar
+props:
+  responsiveVisibility: {}
+  progressBar:
+    shape: Linear
+    text:
+      themeStyle: HEADLINE_SMALL
+      textValue:
+        inputValue: ""
+      heightValue:
+        inputValue: 2
+    size:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 4
+    percentValue:
+      inputValue: 0.571
+    progressColorValue:
+      inputValue:
+        themeColor: PRIMARY
+    backgroundColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    animationValue:
+      inputValue: false
+    barRadiusValue:
+      inputValue: 2
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,11 @@
+key: Row_diorrocj
+type: Row
+props:
+  row: {}
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE

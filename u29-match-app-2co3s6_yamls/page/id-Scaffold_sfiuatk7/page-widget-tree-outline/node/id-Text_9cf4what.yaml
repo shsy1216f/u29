@@ -1,0 +1,16 @@
+key: Text_9cf4what
+type: Text
+props:
+  text:
+    themeStyle: TITLE_LARGE
+    selectable: false
+    textValue:
+      inputValue: Prime
+  padding:
+    topValue:
+      inputValue: 8
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

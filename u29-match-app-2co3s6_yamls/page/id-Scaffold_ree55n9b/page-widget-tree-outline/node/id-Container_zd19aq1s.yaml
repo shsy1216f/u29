@@ -1,0 +1,45 @@
+key: Container_zd19aq1s
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 150
+      height:
+        pixelsValue:
+          inputValue: 200
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ONLY
+        topRightValue:
+          inputValue: 20
+        bottomRightValue:
+          inputValue: 20
+        allValue:
+          inputValue: 20
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_TEXT
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: -1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 0.8
+    animatedOpacity: {}
+valueKey: {}

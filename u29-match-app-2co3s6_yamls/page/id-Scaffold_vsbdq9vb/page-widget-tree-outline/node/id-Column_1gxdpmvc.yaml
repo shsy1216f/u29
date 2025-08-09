@@ -1,0 +1,12 @@
+key: Column_1gxdpmvc
+type: Column
+props:
+  column:
+    primary: true
+annotations:
+  semanticProperties: {}
+  semanticLabel:
+    inputValue: {}
+focusConfig:
+  focusTraversalOrder:
+    inputValue: {}

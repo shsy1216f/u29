@@ -1,0 +1,46 @@
+key: TextField_otc4qbdj
+type: TextField
+props:
+  padding: {}
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      hintStyle:
+        themeStyle: LABEL_MEDIUM
+      labelStyle:
+        themeStyle: LABEL_MEDIUM
+      hintText:
+        textValue:
+          inputValue: ニックネームを入力
+      filledValue:
+        inputValue: false
+      borderWidthValue:
+        inputValue: 1
+      denseValue:
+        inputValue: true
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+    initialText:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: DISPLAY_NAME
+    width:
+      percentOfScreenSizeValue:
+        inputValue: 75
+    maxLinesValue:
+      inputValue: 1
+    autofocusValue:
+      inputValue: false
+    cursorColorValue:
+      inputValue:
+        themeC

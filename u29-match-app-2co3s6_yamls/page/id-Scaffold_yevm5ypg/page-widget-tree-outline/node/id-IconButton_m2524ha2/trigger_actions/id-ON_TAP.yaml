@@ -1,0 +1,6 @@
+rootAction:
+  key: rvmrylla
+  action:
+    key: 2nrjgdm8
+trigger:
+  triggerType: ON_TAP

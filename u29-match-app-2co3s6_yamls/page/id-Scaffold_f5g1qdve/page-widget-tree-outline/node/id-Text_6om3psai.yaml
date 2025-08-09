@@ -1,0 +1,11 @@
+key: Text_6om3psai
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: お住まい
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BA

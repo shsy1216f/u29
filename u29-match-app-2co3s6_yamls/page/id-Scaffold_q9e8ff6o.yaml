@@ -1,0 +1,17 @@
+name: ProfileSetupPage_Nickname
+description: ""
+node:
+  key: Scaffold_q9e8ff6o
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: nicknameHasBeenEdited
+          key: ip0uf
+        defaultValue:
+          serializedValue: "false"
+        dataType:
+          scalarType: Boolean
+          nonNullable: true
+      serializedDefaultValue:
+        - "false"

@@ -1,0 +1,41 @@
+key: Text_lhc2171o
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    overflowReplacement: ellipsis
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: about_me
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 5
+  padding:
+    leftValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 12
+    bottomValue:
+      inputValue: 16
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+themeWidgetInfo: {}
+valueKey: {}

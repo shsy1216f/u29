@@ -1,0 +1,53 @@
+key: Wrap_wmbwcj14
+type: Wrap
+props:
+  padding:
+    leftValue:
+      inputValue: 10
+  wrap:
+    childAlignment: wrap_start
+    crossAxisAlignment: wrap_cross_start
+    direction: FF_AXIS_HORIZONTAL
+    runAlignment: wrap_start
+    verticalDirection: FF_VERTICAL_DIRECTION_DOWN
+    clipBehavior: FF_CLIP_NONE
+    spacingValue:
+      inputValue: 0
+    runSpacingValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: hobbies
+          key: ycaqsrcx
+  firestore:
+    collectionIdentifier:
+      name: hobbies
+      key: ycaqsrcx
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: category_id
+            relation: EQUAL_TO
+            variable:
+              source: FIRESTORE_REQUEST
+              baseVariable:
+                firestore: {}
+              operations:
+                - accessDocumentField:
+                    documentProperty: REFERENCE
+                - documentReferenceId: {}
+              nodeKeyRef:
+                key: ListView_om072lal
+valueKey: {}

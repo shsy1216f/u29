@@ -1,0 +1,91 @@
+key: Text_2n34u0ay
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_STATE
+                baseVariable:
+                  widgetState:
+                    returnParameter:
+                      allowedDestinationTypes:
+                        - Integer
+                        - Double
+                        - Boolean
+                        - ImagePath
+                        - VideoPath
+                        - AudioPath
+                      dataType:
+                        scalarType: String
+                nodeKeyRef:
+                  key: TextField_vetn8gyw
+          customFunction:
+            name: getTextLengthError
+            key: tkazv
+      mostRecentInputValue: 10字以内で入力してください
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY
+  padding:
+    topValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: LOCAL_STATE
+                        baseVariable:
+                          localState:
+                            fieldIdentifier:
+                              name: nicknameHasBeenEdited
+                              key: ip0uf
+                            stateVariableType: WIDGET_CLASS_STATE
+                        nodeKeyRef:
+                          key: Scaffold_q9e8ff6o
+                    - inputValue:
+                        serializedValue: "true"
+                  condition:
+                    relation: EQUAL_TO
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FUNCTION_CALL
+                        functionCall:
+                          values:
+                            - inputValue:
+                                serializedValue: ""
+                          customFunction:
+                            name: getTextLengthError
+                            key: tkazv
+                    - inputValue:
+                        serializedValue: "''"
+                  condition:
+                    relation: NOT_EQUAL_TO
+          combineConditions:
+            operator: AND_OP
+      mostRecentInputValue: true
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animated

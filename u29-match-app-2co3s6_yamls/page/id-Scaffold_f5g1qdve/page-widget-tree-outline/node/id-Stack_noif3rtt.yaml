@@ -1,0 +1,9 @@
+key: Stack_noif3rtt
+type: Stack
+props:
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  stack: {}

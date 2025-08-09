@@ -1,0 +1,59 @@
+key: Row_njcnqp6o
+type: Wrap
+props:
+  padding:
+    leftValue:
+      inputValue: 10
+  expanded:
+    expandedType: UNEXPANDED
+  wrap:
+    childAlignment: wrap_start
+    crossAxisAlignment: wrap_cross_start
+    direction: FF_AXIS_HORIZONTAL
+    runAlignment: wrap_start
+    verticalDirection: FF_VERTICAL_DIRECTION_DOWN
+    clipBehavior: FF_CLIP_NONE
+    spacingValue:
+      inputValue: 0
+    runSpacingValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: artists
+          key: 7yxflj9w
+  firestore:
+    collectionIdentifier:
+      name: artists
+      key: 7yxflj9w
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: search_keywords
+            relation: ARRAY_CONTAINS
+            variable:
+              source: LOCAL_STATE
+              baseVariable:
+                localState:
+                  fieldIdentifier:
+                    name: searchKeyword
+                    key: 288f4
+                  stateVariableType: WIDGET_CLASS_STATE
+              nodeKeyRef:
+                key: Scaffold_1tfu6pmt
+      isAnd: true
+  requestManagerSettings: {}
+valueKey: {}

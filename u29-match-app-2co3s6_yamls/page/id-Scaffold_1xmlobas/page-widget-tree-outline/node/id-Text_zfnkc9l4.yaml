@@ -1,0 +1,11 @@
+key: Text_zfnkc9l4
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: Page Title
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND

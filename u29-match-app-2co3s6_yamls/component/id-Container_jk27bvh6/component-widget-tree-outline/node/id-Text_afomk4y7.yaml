@@ -1,0 +1,16 @@
+key: Text_afomk4y7
+type: Text
+props:
+  text:
+    themeStyle: TITLE_SMALL
+    selectable: false
+    textValue:
+      inputValue: お酒について
+  padding:
+    topValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      in

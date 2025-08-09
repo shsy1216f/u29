@@ -1,0 +1,30 @@
+key: ListView_om072lal
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: true
+    shrinkWrapValue:
+      inputValue: true
+  expanded:
+    expandedType: EXPANDED
+  queryLoadingWidget:
+    loadingWidget: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: hobby_categories
+          key: 35aqyq7k
+  firestore:
+    collectionIdentifier:
+      name: hobby_categories
+      key: 35aqyq7k
+    orderBy:
+      - collectionFieldIdentifier:
+          name: order
+    hideOnEmpty: false
+  requestManagerSettings: {}

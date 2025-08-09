@@ -1,0 +1,22 @@
+key: Transform_mr4z7vfh
+type: Transform
+props:
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  transform:
+    origin: {}
+    translate:
+      xValue:
+        inputValue: 5
+      yValue:
+        inputValue: -5
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

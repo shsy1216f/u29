@@ -1,0 +1,15 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: 2dova
+      setValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USERS_DATA_FIELD
+              usersDataField:
+                name: selected_hobbies
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: 7h30s8hc

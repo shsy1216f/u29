@@ -1,0 +1,51 @@
+key: Button_t8m1mdr8
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        inputValue: スキップ
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 24
+    innerPadding:
+      leftValue:
+        inputValue: 16
+      rightValue:
+        inputValue: 16
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    disabledColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    disabledTextColorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  padding:
+    bottomValue:
+      inputValue: 70
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valu

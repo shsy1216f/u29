@@ -1,0 +1,6 @@
+rootAction:
+  key: 4pyv9o4e
+  action:
+    key: 9esm6ioo
+trigger:
+  triggerType: ON_WIDGET_SWIPE

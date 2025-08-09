@@ -1,0 +1,113 @@
+key: Container_px5m2rsu
+type: Container
+props:
+  container:
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 28
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      gradient:
+        colors:
+          - color:
+              variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  conditionalValue:
+                    ifConditionalValues:
+                      - condition:
+                          source: LOCAL_STATE
+                          baseVariable:
+                            localState:
+                              fieldIdentifier:
+                                name: selectedHobbies
+                                key: 2dova
+                              stateVariableType: WIDGET_CLASS_STATE
+                          operations:
+                            - listContains:
+                                element:
+                                  source: FIRESTORE_REQUEST
+                                  baseVariable:
+                                    firestore: {}
+                                  operations:
+                                    - accessDocumentField:
+                                        documentProperty: REFERENCE
+                                  nodeKeyRef:
+                                    key: Wrap_wmbwcj14
+                          nodeKeyRef:
+                            key: Scaffold_q6vv4dxg
+                        value:
+                          inputValue:
+                            color:
+                              themeColor: PRIMARY
+                    elseValue:
+                      inputValue:
+                        color:
+                          themeColor: SECONDARY_BACKGROUND
+                    returnParameter:
+                      dataType:
+                        scalarType: Color
+                uiBuilderValue:
+                  color:
+                    themeColor: SECONDARY_BACKGROUND
+            transitionPoint:
+              inputValue:
+                serializedValue: "0"
+          - color:
+              variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  conditionalValue:
+                    ifConditionalValues:
+                      - condition:
+                          source: LOCAL_STATE
+                          baseVariable:
+                            localState:
+                              fieldIdentifier:
+                                name: selectedHobbies
+                                key: 2dova
+                              stateVariableType: WIDGET_CLASS_STATE
+                          operations:
+                            - listContains:
+                                element:
+                                  source: FIRESTORE_REQUEST
+                                  baseVariable:
+                                    firestore: {}
+                                  operations:
+                                    - accessDocumentField:
+                                        documentProperty: REFERENCE
+                                  nodeKeyRef:
+                                    key: Wrap_wmbwcj14
+                          nodeKeyRef:
+                            key: Scaffold_q6vv4dxg
+                        value:
+                          inputValue:
+                            color:
+                              themeColor: SECONDARY
+                    elseValue:
+                      inputValue:
+                        color:
+                          themeColor: SECONDARY_BACKGROUND
+                    returnParameter:
+                      dataType:
+                        scalarType: Color
+                uiBuilderValue:
+                  color:
+                    themeColor: SECONDARY_BACKGROUND
+            transitionPoint:
+              inputValue:
+                serializedValue: "1"
+        angleValue:
+          inputValue: 270
+      borderColorValue: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    leftValue:
+      inputValue: 10
+    topValue:
+      inputValue: 10

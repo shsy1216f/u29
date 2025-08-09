@@ -1,0 +1,17 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: wxwy3
+      setValue:
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              returnParameter:
+                dataType:
+                  scalarType: Integer
+          nodeKeyRef:
+            key: PageView_7t7k6y2n
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: momljehm

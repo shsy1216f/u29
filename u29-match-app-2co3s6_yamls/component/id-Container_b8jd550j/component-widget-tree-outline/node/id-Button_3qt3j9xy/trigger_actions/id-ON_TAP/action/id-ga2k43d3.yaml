@@ -1,0 +1,26 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        cities_name:
+          fieldIdentifier:
+            name: cities_name
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_v7o7kuxh
+    reference:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: userRef
+            key: ymf388
+      nodeKeyRef:
+        key: Container_b8jd550j
+key: ga2k43d3

@@ -1,0 +1,17 @@
+name: HobbySelect
+description: ""
+node:
+  key: Scaffold_q6vv4dxg
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: selectedHobbies
+          key: 2dova
+        dataType:
+          listType:
+            scalarType: DocumentReference
+          subType:
+            collectionIdentifier:
+              name: hobbies
+              key: ycaqsrcx

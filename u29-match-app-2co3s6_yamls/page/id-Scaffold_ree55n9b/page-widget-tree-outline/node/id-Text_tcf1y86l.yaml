@@ -1,0 +1,25 @@
+key: Text_tcf1y86l
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: 趣味
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+  padding:
+    leftValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey

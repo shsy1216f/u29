@@ -1,0 +1,10 @@
+key: ConditionalBuilder_lsk0g25n
+type: ConditionalBuilder
+props:
+  responsiveVisibility: {}
+  conditionalBuilder: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

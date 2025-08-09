@@ -1,0 +1,22 @@
+key: Text_zzvr110o
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_LARGE
+    selectable: false
+    textValue:
+      inputValue: "2"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

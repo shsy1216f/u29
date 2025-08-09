@@ -1,0 +1,106 @@
+key: DropDown_ilnngnpa
+type: DropDown
+props:
+  dropDown:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 200
+      height:
+        pixelsValue:
+          inputValue: 40
+    textStyle:
+      themeStyle: BODY_MEDIUM
+    margin:
+      leftValue:
+        inputValue: 12
+      rightValue:
+        inputValue: 12
+    initialOption:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USERS_DATA_FIELD
+              usersDataField:
+                name: occupation
+    hintText:
+      textValue:
+        inputValue: Select...
+    valueType:
+      dataType:
+        scalarType: String
+    searchHintText:
+      themeStyle: LABEL_MEDIUM
+      textValue:
+        inputValue: Search...
+    fixPosition: true
+    searchTextStyle:
+      themeStyle: BODY_MEDIUM
+    label:
+      themeStyle: LABEL_MEDIUM
+    elevationValue:
+      inputValue: 2
+    borderRadiusValue:
+      inputValue: 8
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 0
+    hidesUnderlineValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 63531
+            family: MaterialIcons
+            matchTextDirection: false
+            name: keyboard_arrow_down_rounded
+    optionsLabels:
+      values:
+        - translatableText:
+            textValue:
+              inputValue: Option 1
+        - translatableText:
+            textValue:
+              inputValue: Option 2
+        - translatableText:
+            textValue:
+              inputValue: Option 3
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - listMapOperation:
+              listMapVariable:
+                source: LIST_MAP
+                baseVariable:
+                  listMap:
+                    containingParentReturnParameter:
+                      dataType:
+                        listType:
+                          scalarType: Document
+                        subType:
+                          collectionIdentifier:
+                            name: occupations
+                            key: 0to6s2zw
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: occupation
+        nodeKeyRef:
+          key: Container_db6ressq
+    optionsValues:
+      values:
+        - serializedValue: Option 1
+        - serializedValue: Option 2
+        - serializedValue: Option 3

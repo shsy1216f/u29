@@ -1,0 +1,30 @@
+key: Text_8dc909ox
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: 生年月日を正しく入力してください
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  padding:
+    topValue:
+      inputValue: 20
+  visibility:
+    visibleValue:
+      variable:
+        source: LOCAL_STATE
+        defaultValue:
+          serializedValue: "true"
+        baseVariable:
+          localState:
+            fieldIdentifier:
+              name: isBirthdateValid
+              key: eouis
+            stateVariableType: WIDGET_CLASS_STATE
+        operations:
+          - negate: {}
+        nodeKeyRef:
+          key: Scaffold_9snsqg37

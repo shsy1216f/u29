@@ -1,0 +1,18 @@
+key: Column_n6v1sm8y
+type: Column
+props:
+  column:
+    scrollable: true
+    primary: true
+    listSpacing: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

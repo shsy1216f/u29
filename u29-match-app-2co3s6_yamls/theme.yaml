@@ -1,0 +1,162 @@
+loadingIndicatorStyle:
+  type: CIRCULAR
+  color:
+    themeColor: PRIMARY
+  diameter: 50
+defaultTypography:
+  primaryFontFamily: Noto Sans JP
+  secondaryFontFamily: Inter
+  displaySmall:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 36
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  headlineMedium:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 28
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  headlineSmall:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  titleMedium:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 18
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  titleSmall:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  bodyMedium:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  bodySmall:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 12
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  displayLarge:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 64
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  displayMedium:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 44
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  headlineLarge:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  titleLarge:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 20
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  labelLarge:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  labelMedium:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  labelSmall:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 12
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w700
+  bodyLarge:
+    fontFamily: Noto Sans JP
+    isCustomFont: false
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+breakPoints:
+  small: 479
+  medium: 767
+  large: 991

@@ -1,0 +1,14 @@
+identifier:
+  name: createSearchUpperBound
+  key: po2ge
+arguments:
+  - identifier:
+      name: searchText
+      key: g8501k
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: String
+    nonNullable: true

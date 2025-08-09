@@ -1,0 +1,16 @@
+show: true
+showSelectedLabels: false
+showUnselectedLabels: false
+backgroundColor:
+  themeColor: PRIMARY_BACKGROUND
+selectedIconColor:
+  paletteColorName: Custom Color 20
+unselectedIconColor:
+  paletteColorName: Custom Color 19
+navBarType: FLUTTER_NAV_BAR
+pageKeyRefOrder:
+  - key: Scaffold_ree55n9b
+  - key: Scaffold_44vazab5
+  - key: Scaffold_qcz60cw7
+  - key: Scaffold_sfiuatk7
+  - key: Scaffold_7fqi87cv

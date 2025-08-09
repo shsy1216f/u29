@@ -1,0 +1,147 @@
+primary:
+  value: "4283286783"
+  darkModeColor:
+    value: "4294930273"
+secondary:
+  value: "4294934658"
+  darkModeColor:
+    value: "4294948941"
+tertiary:
+  value: "4290766079"
+  darkModeColor:
+    value: "4288726271"
+customPaletteColors:
+  - value: "4294920960"
+    paletteColorName: Custom Color 1
+    darkModeColor:
+      value: "4294646636"
+  - value: "4294963473"
+    paletteColorName: Custom Color 2
+    darkModeColor:
+      value: "4292335239"
+  - value: "4278431610"
+    paletteColorName: Custom Color 3
+    darkModeColor:
+      value: "4292346176"
+  - value: "4278213375"
+    paletteColorName: Custom Color 4
+    darkModeColor:
+      value: "4280360227"
+  - value: "4283286783"
+    paletteColorName: Custom Color 5
+    darkModeColor:
+      value: "4287235247"
+  - value: "4294934658"
+    paletteColorName: Custom Color 6
+    darkModeColor:
+      value: "4279256231"
+  - value: "4294355456"
+    paletteColorName: Custom Color 7
+    darkModeColor:
+      value: "4280489609"
+  - value: "4288217241"
+    paletteColorName: Custom Color 8
+    darkModeColor:
+      value: "4286619789"
+  - value: "4286595072"
+    paletteColorName: Custom Color 9
+    darkModeColor:
+      value: "4286978454"
+  - value: "4294953663"
+    paletteColorName: Custom Color 10
+    darkModeColor:
+      value: "4283713448"
+  - value: "4294967168"
+    paletteColorName: Custom Color 11
+    darkModeColor:
+      value: "4283838540"
+  - value: "4292407893"
+    paletteColorName: Custom Color 12
+    darkModeColor:
+      value: "4287896889"
+  - value: "4290766079"
+    paletteColorName: Custom Color 13
+    darkModeColor:
+      value: "4285016328"
+  - value: "4294953600"
+    paletteColorName: Custom Color 14
+    darkModeColor:
+      value: "4289934366"
+  - value: "4286044584"
+    paletteColorName: Custom Color 15
+    darkModeColor:
+      value: "4294579764"
+  - value: "4291407078"
+    paletteColorName: Custom Color 16
+    darkModeColor:
+      value: "4293054529"
+  - value: "4294967295"
+    paletteColorName: Custom Color 17
+    darkModeColor:
+      value: "4282997450"
+  - value: "4291348683"
+    paletteColorName: Custom Color 18
+    darkModeColor:
+      value: "4281294558"
+  - value: "4286878110"
+    paletteColorName: Custom Color 19
+    darkModeColor:
+      value: "4278242872"
+  - value: "4278190080"
+    paletteColorName: Custom Color 20
+    darkModeColor:
+      value: "4292320005"
+darkModeEnabled: true
+alternate:
+  value: "4290378688"
+  darkModeColor:
+    value: "4288865972"
+primaryBackground:
+  value: "4294967295"
+  darkModeColor:
+    value: "4280032286"
+secondaryBackground:
+  value: "4294440951"
+  darkModeColor:
+    value: "4281084974"
+primaryText:
+  value: "4281545523"
+  darkModeColor:
+    value: "4294967295"
+secondaryText:
+  value: "4284900966"
+  darkModeColor:
+    value: "4291940817"
+displayDarkMode: false
+accent1:
+  value: "4294945707"
+  darkModeColor:
+    value: "4294930273"
+accent2:
+  value: "4294951840"
+  darkModeColor:
+    value: "4294948941"
+accent3:
+  value: "4294928253"
+  darkModeColor:
+    value: "4294921819"
+accent4:
+  value: "4292126117"
+  darkModeColor:
+    value: "4289100667"
+success:
+  value: "4285517677"
+  darkModeColor:
+    value: "4278235456"
+warning:
+  value: "4294363406"
+  darkModeColor:
+    value: "4294363406"
+error:
+  value: "4294930273"
+  darkModeColor:
+    value: "4294921275"
+info:
+  value: "4282036479"
+  darkModeColor:
+    value: "4280193279"

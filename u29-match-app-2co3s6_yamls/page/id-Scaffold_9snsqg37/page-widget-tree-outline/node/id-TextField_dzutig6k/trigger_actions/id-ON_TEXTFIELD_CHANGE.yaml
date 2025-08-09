@@ -1,0 +1,6 @@
+rootAction:
+  key: 2664cdn2
+  action:
+    key: dyos4ysg
+trigger:
+  triggerType: ON_TEXTFIELD_CHANGE

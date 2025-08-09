@@ -1,0 +1,11 @@
+key: Text_vjtzmiua
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: さがす
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACK

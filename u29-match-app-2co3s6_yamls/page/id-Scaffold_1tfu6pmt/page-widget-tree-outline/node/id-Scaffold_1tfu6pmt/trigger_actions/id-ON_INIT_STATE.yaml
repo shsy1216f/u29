@@ -1,0 +1,6 @@
+rootAction:
+  key: ozmirity
+  action:
+    key: iwyhvrv7
+trigger:
+  triggerType: ON_INIT_STATE

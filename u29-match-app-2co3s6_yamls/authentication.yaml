@@ -1,0 +1,17 @@
+active: true
+firebase:
+  createUserDocument:
+    collectionIdentifier:
+      name: users
+      key: wsisxbek
+    write: {}
+firebaseConfigFileInfos:
+  - androidPath: users/Zkq8Nj2yyZYCyAa4eQaJdv8hDBI3/projects/u29-match-app-2co3s6/configs/kfpp8s0wnmbu/google-services.json
+    iosPath: users/Zkq8Nj2yyZYCyAa4eQaJdv8hDBI3/projects/u29-match-app-2co3s6/configs/pou2nzfxmlp1/GoogleService-Info.plist
+    webConfig: "\/\/ Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n\/\/ You will also need to load the Firebase SDK.\n\/\/ See https:\/\/firebase.google.com\/docs\/web\/setup for more details.\n\nfirebase.initializeApp({\n  \"projectId\": \"u29-match-app-2co3s6\",\n  \"appId\": \"1:245287648819:web:055ac567f716cb56efed46\",\n  \"storageBucket\": \"u29-match-app-2co3s6.firebasestorage.app\",\n  \"apiKey\": \"AIzaSyCktFNwKbhEVr_WxGgI3fvfYqD1WtcQ94c\",\n  \"authDomain\": \"u29-match-app-2co3s6.firebaseapp.com\",\n  \"messagingSenderId\": \"245287648819\"\n});\n"
+    androidPackageNames:
+      - com.mycompany.u29matchapp
+    iosBundleId: com.mycompany.u29matchapp
+    environment:
+      name: Production
+      key: PROD

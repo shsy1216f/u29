@@ -1,0 +1,11 @@
+key: Text_x3f3sffx
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: 生年月日
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BA

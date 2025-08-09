@@ -1,0 +1,15 @@
+identifier:
+  name: matches
+  key: us0ncniy
+fields:
+  userIds:
+    identifier:
+      name: userIds
+    dataType:
+      scalarType: String
+  createdAt:
+    identifier:
+      name: createdAt
+    dataType:
+      scalarType: DateTime
+description: ""

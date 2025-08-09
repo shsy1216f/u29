@@ -1,0 +1,68 @@
+key: Container_wfzunb2k
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 200
+          mostRecentInputValue: 200
+      height:
+        pixelsValue:
+          inputValue: 70
+          mostRecentInputValue: 70
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 16
+          mostRecentInputValue: 16
+        topRightValue:
+          inputValue: 16
+          mostRecentInputValue: 16
+        bottomLeftValue:
+          inputValue: 16
+          mostRecentInputValue: 16
+        bottomRightValue:
+          inputValue: 16
+          mostRecentInputValue: 16
+        allValue:
+          inputValue: 16
+          mostRecentInputValue: 16
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+    childAlignment:
+      xValue:
+        inputValue: 0
+        mostRecentInputValue: 0
+      yValue:
+        inputValue: 0
+        mostRecentInputValue: 0
+    maxDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    topValue:
+      inputValue: 70
+      mostRecentInputValue: 70
+    rightValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    bottomValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility:
+    phoneHidden: false
+    tabletHidden: false
+    tabletLandscapeHidden: false
+    desktopHidden: false
+name: spacing
+parameterValues: {}

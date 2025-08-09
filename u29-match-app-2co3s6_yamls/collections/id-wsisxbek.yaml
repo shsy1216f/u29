@@ -1,0 +1,169 @@
+identifier:
+  name: users
+  key: wsisxbek
+fields:
+  email:
+    identifier:
+      name: email
+    dataType:
+      scalarType: String
+  display_name:
+    identifier:
+      name: display_name
+    dataType:
+      scalarType: String
+  uid:
+    identifier:
+      name: uid
+    dataType:
+      scalarType: String
+  created_time:
+    identifier:
+      name: created_time
+    dataType:
+      scalarType: DateTime
+  birthDate:
+    identifier:
+      name: birthDate
+    dataType:
+      scalarType: DateTime
+  gender:
+    identifier:
+      name: gender
+    dataType:
+      scalarType: String
+  profileText:
+    identifier:
+      name: profileText
+    dataType:
+      scalarType: String
+  interests:
+    identifier:
+      name: interests
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: interests_master
+          key: 4t6jtn0e
+  oshis:
+    identifier:
+      name: oshis
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: oshis_master
+          key: rxsbc0nq
+  subscription:
+    identifier:
+      name: subscription
+    dataType:
+      scalarType: String
+  likes_remaining:
+    identifier:
+      name: likes_remaining
+    dataType:
+      scalarType: Integer
+  last_login:
+    identifier:
+      name: last_login
+    dataType:
+      scalarType: DateTime
+  phone_number:
+    identifier:
+      name: phone_number
+    dataType:
+      scalarType: String
+  shortDescription:
+    identifier:
+      name: shortDescription
+    dataType:
+      scalarType: String
+  last_active_time:
+    identifier:
+      name: last_active_time
+    dataType:
+      scalarType: DateTime
+  role:
+    identifier:
+      name: role
+    dataType:
+      scalarType: String
+  title:
+    identifier:
+      name: title
+    dataType:
+      scalarType: String
+  prefecture:
+    identifier:
+      name: prefecture
+    dataType:
+      scalarType: String
+  job:
+    identifier:
+      name: job
+    dataType:
+      scalarType: String
+  photo_url:
+    identifier:
+      name: photo_url
+    dataType:
+      scalarType: ImagePath
+  about_me:
+    identifier:
+      name: about_me
+    dataType:
+      scalarType: String
+  photo_urls:
+    identifier:
+      name: photo_urls
+    dataType:
+      listType:
+        scalarType: ImagePath
+  occupation:
+    identifier:
+      name: occupation
+    dataType:
+      scalarType: String
+  prefecture_name:
+    identifier:
+      name: prefecture_name
+    dataType:
+      scalarType: String
+  cities_name:
+    identifier:
+      name: cities_name
+    dataType:
+      scalarType: String
+  alcohol:
+    identifier:
+      name: alcohol
+    dataType:
+      scalarType: String
+  smoke:
+    identifier:
+      name: smoke
+    dataType:
+      scalarType: String
+  selected_hobbies:
+    identifier:
+      name: selected_hobbies
+    dataType:
+      listType:
+        scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: hobbies
+          key: ycaqsrcx
+  selected_artists:
+    identifier:
+      name: selected_artists
+    dataType:
+      listType:
+        scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: artists
+          key: 7yxflj9w
+description: ""

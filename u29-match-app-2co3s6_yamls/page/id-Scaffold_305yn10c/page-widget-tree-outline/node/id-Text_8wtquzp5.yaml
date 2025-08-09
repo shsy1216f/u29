@@ -1,0 +1,17 @@
+key: Text_8wtquzp5
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: メイン写真
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inp

@@ -1,0 +1,34 @@
+key: Button_kf240170
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        inputValue: 最初にもどる
+      colorValue:
+        inputValue:
+          value: "4294967295"
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    innerPadding:
+      leftValue:
+        inputValue: 16
+      rightValue:
+        inputValue: 16
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 40
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}

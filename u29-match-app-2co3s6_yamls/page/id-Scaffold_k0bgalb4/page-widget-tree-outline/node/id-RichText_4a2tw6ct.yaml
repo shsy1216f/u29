@@ -1,0 +1,18 @@
+key: RichText_4a2tw6ct
+type: RichText
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  richText:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+parameterValues: {}
+annotations:
+  documentation: You will have to add an action on this rich text to go to your login page.

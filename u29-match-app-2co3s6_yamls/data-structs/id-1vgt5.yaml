@@ -1,0 +1,10 @@
+identifier:
+  name: response
+  key: 1vgt5
+fields:
+  - identifier:
+      name: prefecture
+      key: lj78g
+    dataType:
+      listType:
+        scalarType: String

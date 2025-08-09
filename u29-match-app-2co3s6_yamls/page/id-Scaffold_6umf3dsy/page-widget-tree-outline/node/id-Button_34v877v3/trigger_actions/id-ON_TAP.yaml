@@ -1,0 +1,10 @@
+rootAction:
+  key: admprhot
+  action:
+    key: rpvga7ru
+  followUpAction:
+    key: zdf947bz
+    action:
+      key: 2scq8z7w
+trigger:
+  triggerType: ON_TAP

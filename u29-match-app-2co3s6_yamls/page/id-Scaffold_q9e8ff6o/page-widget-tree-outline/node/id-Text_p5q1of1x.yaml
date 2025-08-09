@@ -1,0 +1,20 @@
+key: Text_p5q1of1x
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: ニックネームを教えてください
+    fontWeightValue:
+      inputValue: w800
+  padding:
+    topValue:
+      inputValue: 120
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  expanded:

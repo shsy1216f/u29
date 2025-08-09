@@ -1,0 +1,6 @@
+key: Column_8y46uaw7
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_center
+    primary: true

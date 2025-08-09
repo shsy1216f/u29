@@ -1,0 +1,16 @@
+name: EditNicknameSheet
+description: ""
+params:
+  ymf388:
+    identifier:
+      name: userRef
+      key: ymf388
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: users
+          key: wsisxbek
+node:
+  key: Container_3q7tn6w8

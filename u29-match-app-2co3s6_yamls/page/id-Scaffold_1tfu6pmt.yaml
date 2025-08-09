@@ -1,0 +1,26 @@
+name: ArtistSelect
+description: ""
+node:
+  key: Scaffold_1tfu6pmt
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: selectedArtists
+          key: 2dova
+        dataType:
+          listType:
+            scalarType: DocumentReference
+          subType:
+            collectionIdentifier:
+              name: artists
+              key: 7yxflj9w
+    - parameter:
+        identifier:
+          name: searchKeyword
+          key: 288f4
+        defaultValue:
+          serializedValue: ""
+        dataType:
+          scalarType: String
+          nonNullable: false

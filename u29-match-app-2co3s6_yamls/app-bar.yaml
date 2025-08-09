@@ -1,0 +1,23 @@
+templateType: BACK_BUTTON_CENTER_TITLE
+backgroundColor:
+  themeColor: PRIMARY_TEXT
+elevation: 2
+defaultIcon:
+  sizeValue:
+    inputValue: 30
+  colorValue:
+    inputValue:
+      themeColor: PRIMARY_BACKGROUND
+  iconDataValue:
+    inputValue:
+      codePoint: 57694
+      family: MaterialIcons
+      matchTextDirection: true
+      name: chevron_left
+textStyle:
+  themeStyle: TITLE_MEDIUM
+  isCustomFont: false
+  colorValue:
+    inputValue:
+      themeColor: SECONDARY_BACKGROUND
+addOnNewPages: true

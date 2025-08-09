@@ -1,0 +1,16 @@
+key: Text_feo8ju4v
+type: Text
+props:
+  text:
+    themeStyle: TITLE_SMALL
+    selectable: false
+    textValue:
+      inputValue: 居住地を編集
+  padding:
+    topValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      in

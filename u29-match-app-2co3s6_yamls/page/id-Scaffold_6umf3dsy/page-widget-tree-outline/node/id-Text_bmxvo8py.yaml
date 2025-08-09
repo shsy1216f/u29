@@ -1,0 +1,11 @@
+key: Text_bmxvo8py
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: ご職業
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACK

@@ -1,0 +1,16 @@
+key: Stack_5nb2h3iz
+type: Stack
+props:
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  stack:
+    dimensions: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

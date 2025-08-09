@@ -1,0 +1,59 @@
+key: Container_99e8k1xs
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      gradient:
+        colors:
+          - color:
+              inputValue:
+                color:
+                  themeColor: PRIMARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "0"
+          - color:
+              inputValue:
+                color:
+                  themeColor: SECONDARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "1"
+        angleValue:
+          inputValue: 270
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    bottomValue:
+      inputValue: 120
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

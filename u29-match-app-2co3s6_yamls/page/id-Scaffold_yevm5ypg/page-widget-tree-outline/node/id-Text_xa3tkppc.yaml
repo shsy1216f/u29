@@ -1,0 +1,32 @@
+key: Text_xa3tkppc
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: ここに写真をアップロード
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_STATE
+                baseVariable:
+                  widgetState:
+                    actionType: UPLOAD_DATA_URL
+                    actionKeyRef:
+                      key: j8k3cd9t
+                nodeKeyRef:
+                  key: Container_4t7m4mnz
+            - {}
+          condition:
+            relation: DOES_NOT_EXIST_OR_IS_EMPTY
+      mo

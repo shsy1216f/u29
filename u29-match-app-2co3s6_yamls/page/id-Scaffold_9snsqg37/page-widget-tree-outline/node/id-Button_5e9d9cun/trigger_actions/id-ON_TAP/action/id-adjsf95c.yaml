@@ -1,0 +1,68 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        birthDate:
+          fieldIdentifier:
+            name: birthDate
+          variable:
+            source: FUNCTION_CALL
+            functionCall:
+              values:
+                - variable:
+                    source: WIDGET_STATE
+                    baseVariable:
+                      widgetState:
+                        returnParameter:
+                          allowedDestinationTypes:
+                            - Integer
+                            - Double
+                            - Boolean
+                            - ImagePath
+                            - VideoPath
+                            - AudioPath
+                          dataType:
+                            scalarType: String
+                    nodeKeyRef:
+                      key: TextField_36vp3krr
+                - variable:
+                    source: WIDGET_STATE
+                    baseVariable:
+                      widgetState:
+                        returnParameter:
+                          allowedDestinationTypes:
+                            - Integer
+                            - Double
+                            - Boolean
+                            - ImagePath
+                            - VideoPath
+                            - AudioPath
+                          dataType:
+                            scalarType: String
+                    nodeKeyRef:
+                      key: TextField_qfvcakq9
+                - variable:
+                    source: WIDGET_STATE
+                    baseVariable:
+                      widgetState:
+                        returnParameter:
+                          allowedDestinationTypes:
+                            - Integer
+                            - Double
+                            - Boolean
+                            - ImagePath
+                            - VideoPath
+                            - AudioPath
+                          dataType:
+                            scalarType: String
+                    nodeKeyRef:
+                      key: TextField_dzutig6k
+              customFunction:
+                name: createDateTimeFromStrings
+                key: 24xyy
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: adjsf95c

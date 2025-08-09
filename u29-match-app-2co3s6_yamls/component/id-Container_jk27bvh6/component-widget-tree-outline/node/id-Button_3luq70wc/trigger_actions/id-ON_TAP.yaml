@@ -1,0 +1,10 @@
+rootAction:
+  key: f6ky5u6p
+  action:
+    key: wr1mfagx
+  followUpAction:
+    key: gnu8nubi
+    action:
+      key: lknklz3w
+trigger:
+  triggerType: ON_TAP

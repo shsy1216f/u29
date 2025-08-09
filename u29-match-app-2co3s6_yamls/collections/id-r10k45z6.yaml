@@ -1,0 +1,15 @@
+identifier:
+  name: artist_categories
+  key: r10k45z6
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+  order:
+    identifier:
+      name: order
+    dataType:
+      scalarType: Integer
+description: ""

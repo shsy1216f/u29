@@ -1,0 +1,6 @@
+rootAction:
+  key: qt5v5stm
+  action:
+    key: 6c4xgatf
+trigger:
+  triggerType: ON_TAP

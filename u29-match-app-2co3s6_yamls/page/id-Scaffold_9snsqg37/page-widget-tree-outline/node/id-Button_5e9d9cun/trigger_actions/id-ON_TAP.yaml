@@ -1,0 +1,10 @@
+rootAction:
+  key: enol2se4
+  action:
+    key: adjsf95c
+  followUpAction:
+    key: dufb1rdu
+    action:
+      key: xmsmevt4
+trigger:
+  triggerType: ON_TAP

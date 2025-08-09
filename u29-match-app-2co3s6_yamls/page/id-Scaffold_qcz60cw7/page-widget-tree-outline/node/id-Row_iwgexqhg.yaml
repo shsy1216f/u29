@@ -1,0 +1,16 @@
+key: Row_iwgexqhg
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_start
+    crossAxisAlignment: cross_axis_center
+    minSizeValue:
+      inputValue: true
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED

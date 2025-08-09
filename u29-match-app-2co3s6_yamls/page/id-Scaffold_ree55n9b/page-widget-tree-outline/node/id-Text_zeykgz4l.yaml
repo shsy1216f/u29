@@ -1,0 +1,24 @@
+key: Text_zeykgz4l
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    selectable: false
+    textValue:
+      inputValue: あなたの趣味
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+  padding:
+    topValue:
+      inputValue: 20
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}

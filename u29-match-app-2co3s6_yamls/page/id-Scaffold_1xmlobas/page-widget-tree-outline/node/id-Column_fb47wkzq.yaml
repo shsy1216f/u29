@@ -1,0 +1,13 @@
+key: Column_fb47wkzq
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_stretch
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

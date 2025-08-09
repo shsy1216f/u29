@@ -1,0 +1,22 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        job:
+          fieldIdentifier:
+            name: job
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_43dejivk
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: rpvga7ru

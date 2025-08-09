@@ -1,0 +1,66 @@
+key: Text_ttmwvtk2
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: artist_name
+        nodeKeyRef:
+          key: Row_njcnqp6o
+    colorValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          conditionalValue:
+            ifConditionalValues:
+              - condition:
+                  source: LOCAL_STATE
+                  baseVariable:
+                    localState:
+                      fieldIdentifier:
+                        name: selectedHobbies
+                        key: 2dova
+                      stateVariableType: WIDGET_CLASS_STATE
+                  operations:
+                    - listContains:
+                        element:
+                          source: FIRESTORE_REQUEST
+                          baseVariable:
+                            firestore: {}
+                          operations:
+                            - accessDocumentField:
+                                documentProperty: REFERENCE
+                          nodeKeyRef:
+                            key: Row_njcnqp6o
+                  nodeKeyRef:
+                    key: Scaffold_1tfu6pmt
+                value:
+                  inputValue:
+                    color:
+                      themeColor: SECONDARY_BACKGROUND
+            elseValue:
+              inputValue:
+                color:
+                  themeColor: SECONDARY_TEXT
+            returnParameter:
+              dataType:
+                scalarType: Color
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 2
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 2

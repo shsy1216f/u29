@@ -1,0 +1,36 @@
+key: Container_2e54g4lz
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 90
+      height:
+        pixelsValue:
+          inputValue: 150
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

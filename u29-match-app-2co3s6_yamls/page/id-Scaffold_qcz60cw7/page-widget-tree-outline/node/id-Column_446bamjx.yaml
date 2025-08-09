@@ -1,0 +1,21 @@
+key: Column_446bamjx
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+  padding:
+    type: FF_PADDING_ONLY
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

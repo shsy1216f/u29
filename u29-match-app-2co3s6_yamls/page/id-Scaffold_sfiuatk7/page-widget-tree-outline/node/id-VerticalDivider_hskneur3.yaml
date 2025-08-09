@@ -1,0 +1,14 @@
+key: VerticalDivider_hskneur3
+type: VerticalDivider
+props:
+  verticalDivider:
+    lineStyle: SOLID
+    widthValue:
+      inputValue: 10
+    thicknessValue:
+      inputValue: 2
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    heightValue:
+      inputValue: 80

@@ -1,0 +1,28 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        selected_hobbies:
+          fieldIdentifier:
+            name: selected_hobbies
+          fieldValue:
+            fieldValue: SET
+            value:
+              fieldIdentifier:
+                name: selected_hobbies
+              variable:
+                source: LOCAL_STATE
+                baseVariable:
+                  localState:
+                    fieldIdentifier:
+                      name: selectedHobbies
+                      key: 2dova
+                    stateVariableType: WIDGET_CLASS_STATE
+                nodeKeyRef:
+                  key: Scaffold_q6vv4dxg
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: oz3kapta

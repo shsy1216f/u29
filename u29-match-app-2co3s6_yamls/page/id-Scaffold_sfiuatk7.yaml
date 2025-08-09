@@ -1,0 +1,16 @@
+name: ProfileSetupPage_Profile
+description: ""
+params: {}
+node:
+  key: Scaffold_sfiuatk7
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: currentPageIndex
+          key: wxwy3
+        dataType:
+          scalarType: Integer
+          nonNullable: true
+      serializedDefaultValue:
+        - "0"

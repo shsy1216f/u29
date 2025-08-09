@@ -1,0 +1,11 @@
+key: Row_h2oawu5n
+type: Row
+props:
+  row: {}
+  padding:
+    leftValue:
+      inputValue: 40
+    topValue:
+      inputValue: 20
+    rightValue:
+      inputValue: 40

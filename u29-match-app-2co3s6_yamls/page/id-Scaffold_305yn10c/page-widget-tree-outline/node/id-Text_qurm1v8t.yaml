@@ -1,0 +1,22 @@
+key: Text_qurm1v8t
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_LARGE
+    selectable: false
+    textValue:
+      inputValue: "5"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

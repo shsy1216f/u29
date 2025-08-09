@@ -1,0 +1,28 @@
+key: IconButton_ba4a697n
+type: IconButton
+props:
+  iconButton:
+    buttonSize:
+      pixelsValue:
+        inputValue: 28
+    borderRadiusValue:
+      inputValue: 8
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 14
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 58397
+            family: MaterialIcons
+            matchTextDirection: true
+            name: navigate_next
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

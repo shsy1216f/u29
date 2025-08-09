@@ -1,0 +1,16 @@
+key: Divider_xmhi038t
+type: Divider
+props:
+  divider:
+    heightValue:
+      inputValue: 10
+    thicknessValue:
+      inputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}

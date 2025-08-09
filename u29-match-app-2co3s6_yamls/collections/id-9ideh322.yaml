@@ -1,0 +1,17 @@
+identifier:
+  name: prefrectures
+  key: 9ideh322
+fields:
+  prefecture_name:
+    identifier:
+      name: prefecture_name
+    dataType:
+      listType:
+        scalarType: String
+  cities:
+    identifier:
+      name: cities
+    dataType:
+      listType:
+        scalarType: String
+description: ""

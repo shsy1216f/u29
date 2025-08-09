@@ -1,0 +1,15 @@
+name: ProfileSetupPage_Job
+description: ""
+node:
+  key: Scaffold_6umf3dsy
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: selectedPrefecture
+          key: v93a7
+        defaultValue:
+          serializedValue: ""
+        dataType:
+          scalarType: String
+          nonNullable: false

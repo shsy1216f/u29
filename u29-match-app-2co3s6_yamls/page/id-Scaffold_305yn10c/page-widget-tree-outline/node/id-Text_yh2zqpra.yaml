@@ -1,0 +1,28 @@
+key: Text_yh2zqpra
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: occupation
+      mostRecentInputValue: 大学生
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueK

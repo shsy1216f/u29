@@ -1,0 +1,21 @@
+key: Text_inr4h869
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: プロフィールが完成しました
+    fontWeightValue:
+      inputValue: w800
+  padding:
+    topValue:
+      inputValue: 120
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  expanded:
+  

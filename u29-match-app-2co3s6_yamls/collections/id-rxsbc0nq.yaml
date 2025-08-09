@@ -1,0 +1,10 @@
+identifier:
+  name: oshis_master
+  key: rxsbc0nq
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+description: ""

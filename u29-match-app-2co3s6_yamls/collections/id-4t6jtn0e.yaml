@@ -1,0 +1,10 @@
+identifier:
+  name: interests_master
+  key: 4t6jtn0e
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+description: ""

@@ -1,0 +1,58 @@
+key: Button_fdk9scl2
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USERS_DATA_FIELD
+              usersDataField:
+                name: birthDate
+          operations:
+            - dateTimeFormat:
+                format: y/M/d
+                isCustom: true
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_TEXT
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 24
+    innerPadding:
+      leftValue:
+        inputValue: 16
+      rightValue:
+        inputValue: 16
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+  padding:
+    topValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,20 @@
+key: Row_qszy8v9x
+type: Row
+props:
+  row:
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

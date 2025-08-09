@@ -1,0 +1,26 @@
+identifier:
+  name: validateBirthdate
+  key: by6oj
+arguments:
+  - identifier:
+      name: yearStr
+      key: 22qnev
+    dataType:
+      scalarType: String
+      nonNullable: true
+  - identifier:
+      name: monthStr
+      key: 53dnwf
+    dataType:
+      scalarType: String
+      nonNullable: true
+  - identifier:
+      name: dayStr
+      key: zt9naj
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: Boolean
+    nonNullable: true

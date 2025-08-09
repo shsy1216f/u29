@@ -1,0 +1,11 @@
+key: Text_2chm2oji
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: メイン写真
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_

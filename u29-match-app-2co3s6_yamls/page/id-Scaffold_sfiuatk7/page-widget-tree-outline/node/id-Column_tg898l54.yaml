@@ -1,0 +1,10 @@
+key: Column_tg898l54
+type: Column
+props:
+  column:
+    primary: true
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

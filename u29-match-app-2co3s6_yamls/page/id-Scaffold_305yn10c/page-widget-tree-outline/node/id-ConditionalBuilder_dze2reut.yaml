@@ -1,0 +1,10 @@
+key: ConditionalBuilder_dze2reut
+type: ConditionalBuilder
+props:
+  responsiveVisibility: {}
+  conditionalBuilder: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

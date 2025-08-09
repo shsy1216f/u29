@@ -1,0 +1,54 @@
+key: Container_db6ressq
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 90
+      height:
+        pixelsValue:
+          inputValue: 150
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: occupations
+          key: 0to6s2zw
+  firestore:
+    collectionIdentifier:
+      name: occupations
+      key: 0to6s2zw
+    orderBy:
+      - collectionFieldIdentifier:
+          name: order
+        descending: false
+    hideOnEmpty: false
+valueKey: {}

@@ -1,0 +1,10 @@
+key: Container_3q7tn6w8
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: EditNicknameSheet
+isDummyRoot: true

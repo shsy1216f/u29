@@ -1,0 +1,48 @@
+key: Wrap_ngz9dpqx
+type: Row
+props:
+  row:
+    crossAxisAlignment: cross_axis_center
+    scrollable: true
+    listSpacing: {}
+  padding:
+    leftValue:
+      inputValue: 10
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: artists
+          key: 7yxflj9w
+  firestore:
+    collectionIdentifier:
+      name: artists
+      key: 7yxflj9w
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: category_ids
+            relation: ARRAY_CONTAINS
+            variable:
+              source: FIRESTORE_REQUEST
+              baseVariable:
+                firestore: {}
+              operations:
+                - accessDocumentField:
+                    fieldIdentifier:
+                      name: order
+              nodeKeyRef:
+                key: ListView_9zt3q0f5
+valueKey: {}

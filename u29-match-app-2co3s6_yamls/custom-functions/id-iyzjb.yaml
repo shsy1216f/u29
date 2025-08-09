@@ -1,0 +1,14 @@
+identifier:
+  name: katakanaToHiragana
+  key: iyzjb
+arguments:
+  - identifier:
+      name: inputText
+      key: 96ubvf
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: String
+    nonNullable: true

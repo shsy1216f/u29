@@ -1,0 +1,14 @@
+identifier:
+  name: isNicknameInvalid
+  key: xgdwj
+arguments:
+  - identifier:
+      name: nickname
+      key: h06e8j
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: Boolean
+    nonNullable: true

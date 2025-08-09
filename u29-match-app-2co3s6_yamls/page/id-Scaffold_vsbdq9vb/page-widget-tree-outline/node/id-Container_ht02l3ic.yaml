@@ -1,0 +1,79 @@
+key: Container_ht02l3ic
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 20
+      boxShape: FF_BOX_SHAPE_RECTANGLE
+      boxShadow: {}
+      image: {}
+      colorValue:
+        variable:
+          source: FUNCTION_CALL
+          functionCall:
+            conditionalValue:
+              ifConditionalValues:
+                - condition:
+                    source: FUNCTION_CALL
+                    functionCall:
+                      values:
+                        - variable:
+                            source: LOCAL_STATE
+                            baseVariable:
+                              localState:
+                                fieldIdentifier:
+                                  name: selectedGender
+                                  key: v93a7
+                                stateVariableType: WIDGET_CLASS_STATE
+                            nodeKeyRef:
+                              key: Scaffold_vsbdq9vb
+                        - inputValue:
+                            serializedValue: その他
+                      condition:
+                        relation: EQUAL_TO
+                  value:
+                    inputValue:
+                      color:
+                        themeColor: PRIMARY
+              elseValue:
+                inputValue:
+                  color:
+                    themeColor: SECONDARY_BACKGROUND
+              returnParameter:
+                dataType:
+                  scalarType: Color
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    topValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey:
+  inputValue:
+    serializedVal

@@ -1,0 +1,19 @@
+key: Text_qgjwcnej
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    selectable: false
+    textValue:
+      inputValue: アカウントを作成してはじめましょう
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsive

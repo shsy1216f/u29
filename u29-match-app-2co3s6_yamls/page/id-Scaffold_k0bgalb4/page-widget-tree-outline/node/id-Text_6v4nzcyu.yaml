@@ -1,0 +1,12 @@
+key: Text_6v4nzcyu
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    selectable: false
+    textValue:
+      inputValue: ようこそ
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  responsiveVisibility: {}
+parameterVa

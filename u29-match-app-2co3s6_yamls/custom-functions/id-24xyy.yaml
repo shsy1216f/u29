@@ -1,0 +1,25 @@
+identifier:
+  name: createDateTimeFromStrings
+  key: 24xyy
+arguments:
+  - identifier:
+      name: yearStr
+      key: y1e0jm
+    dataType:
+      scalarType: String
+      nonNullable: true
+  - identifier:
+      name: monthStr
+      key: 3r4mb4
+    dataType:
+      scalarType: String
+      nonNullable: true
+  - identifier:
+      name: dayStr
+      key: lowj7h
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: DateTime

@@ -1,0 +1,27 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        photo_urls:
+          fieldIdentifier:
+            name: photo_urls
+          fieldValue:
+            fieldValue: FIRESTORE_ARRAY_UNION
+            value:
+              fieldIdentifier:
+                name: photo_urls
+              variable:
+                source: WIDGET_STATE
+                baseVariable:
+                  widgetState:
+                    actionType: UPLOAD_DATA_URL
+                    actionKeyRef:
+                      key: e67hhs9z
+                nodeKeyRef:
+                  key: Container_b48uonl3
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: c32u09xw

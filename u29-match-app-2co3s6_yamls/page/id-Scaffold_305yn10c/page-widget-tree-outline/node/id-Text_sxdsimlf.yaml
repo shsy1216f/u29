@@ -1,0 +1,22 @@
+key: Text_sxdsimlf
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: 職業
+  padding:
+    leftValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey

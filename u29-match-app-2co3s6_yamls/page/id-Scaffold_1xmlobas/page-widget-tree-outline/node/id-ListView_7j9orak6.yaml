@@ -1,0 +1,8 @@
+key: ListView_7j9orak6
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: true
+    shrinkWrapValue:
+      inputValue: true

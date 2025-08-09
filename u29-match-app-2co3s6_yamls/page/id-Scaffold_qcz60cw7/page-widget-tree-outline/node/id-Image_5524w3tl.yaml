@@ -1,0 +1,40 @@
+key: Image_5524w3tl
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 300
+      height:
+        pixelsValue:
+          inputValue: 400
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 20
+    cacheFadeDuration: 500
+    pathValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: photo_urls
+        operations:
+          - listItemAtIndex:
+              type: SPECIFIED
+              index:
+                inputValue:
+                  serializedValue: "5"
+    format: FF_IMAGE_FORMAT_AUTO
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,40 @@
+identifier:
+  name: getCities
+  key: 92hg0
+url: "https:\/\/geoapi.heartrails.com\/api\/json?method=getCities&prefecture=[prefecture]"
+callType: GET
+variables:
+  - identifier:
+      name: prefecture
+      key: 84170qw9
+    type: String
+    value:
+      inputValue: {}
+jsonPathDefinitions:
+  - identifier:
+      name: cities
+      key: ndynugni
+    jsonPath:
+      jsonPath: "$.response.location[:].city"
+      returnParameter:
+        dataType:
+          listType:
+            scalarType: String
+    inferredParameter:
+      dataType:
+        listType:
+          scalarType: String
+endpointSettings:
+  escapeVariablesInRequestBody: true
+parameters:
+  - identifier:
+      name: method
+      key: lns75t6o
+    specifiedValue: getCities
+    type: String
+  - identifier:
+      name: prefecture
+      key: wxd8ot5g
+    variableIdentifier:
+      name: prefecture
+      key: 84170qw9

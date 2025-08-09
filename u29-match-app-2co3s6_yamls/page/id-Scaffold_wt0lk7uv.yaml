@@ -1,0 +1,14 @@
+name: ProfileSetupPage_Preview
+description: ""
+params: {}
+node:
+  key: Scaffold_wt0lk7uv
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: uploadedPhotoUrl
+          key: v93a7
+        dataType:
+          scalarType: ImagePath
+          nonNullable: false

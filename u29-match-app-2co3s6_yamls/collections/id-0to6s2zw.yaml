@@ -1,0 +1,15 @@
+identifier:
+  name: occupations
+  key: 0to6s2zw
+fields:
+  occupation:
+    identifier:
+      name: occupation
+    dataType:
+      scalarType: String
+  order:
+    identifier:
+      name: order
+    dataType:
+      scalarType: Integer
+description: ""

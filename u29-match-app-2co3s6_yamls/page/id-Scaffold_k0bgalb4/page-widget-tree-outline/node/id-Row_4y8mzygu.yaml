@@ -1,0 +1,8 @@
+key: Row_4y8mzygu
+type: Row
+props:
+  row: {}
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget:
+      defaultLoadingIndicator: {}

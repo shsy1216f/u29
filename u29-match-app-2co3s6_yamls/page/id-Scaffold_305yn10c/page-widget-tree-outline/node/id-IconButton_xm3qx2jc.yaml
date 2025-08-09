@@ -1,0 +1,37 @@
+key: IconButton_xm3qx2jc
+type: IconButton
+props:
+  iconButton:
+    buttonSize:
+      pixelsValue:
+        inputValue: 32
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    borderRadiusValue:
+      inputValue: 16
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 16
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY_BACKGROUND
+        iconDataValue:
+          inputValue:
+            codePoint: 57706
+            family: MaterialIcons
+            matchTextDirection: false
+            name: close
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 0.4
+    animatedOpacity: {}
+valueKey: {}

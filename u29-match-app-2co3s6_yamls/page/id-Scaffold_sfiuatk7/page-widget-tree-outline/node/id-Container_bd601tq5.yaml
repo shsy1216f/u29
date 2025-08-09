@@ -1,0 +1,34 @@
+key: Container_bd601tq5
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 90
+      height:
+        pixelsValue:
+          inputValue: 90
+    boxDecoration:
+      boxShadow: {}
+      image: {}
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    rightValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

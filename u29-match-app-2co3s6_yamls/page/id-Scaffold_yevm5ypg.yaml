@@ -1,0 +1,13 @@
+name: ProfileSetupPage_MainPhoto
+description: ""
+node:
+  key: Scaffold_yevm5ypg
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: uploadedPhotoUrl1
+          key: v93a7
+        dataType:
+          scalarType: ImagePath
+          nonNullable: false

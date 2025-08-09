@@ -1,0 +1,36 @@
+key: ProgressBar_r7o5i8uo
+type: ProgressBar
+props:
+  responsiveVisibility: {}
+  progressBar:
+    shape: Linear
+    text:
+      themeStyle: HEADLINE_SMALL
+      textValue:
+        inputValue: ""
+      heightValue:
+        inputValue: 2
+    size:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 4
+    percentValue:
+      inputValue: 0.286
+    progressColorValue:
+      inputValue:
+        themeColor: PRIMARY
+    backgroundColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    animationValue:
+      inputValue: false
+    barRadiusValue:
+      inputValue: 2
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

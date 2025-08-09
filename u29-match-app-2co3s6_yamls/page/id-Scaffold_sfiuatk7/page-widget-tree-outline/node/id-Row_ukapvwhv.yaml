@@ -1,0 +1,21 @@
+key: Row_ukapvwhv
+type: Row
+props:
+  row:
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+themeWidgetInfo: {}
+valueKey: {}

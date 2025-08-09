@@ -1,0 +1,22 @@
+key: Text_qherubyi
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: 都道府県
+  padding:
+    leftValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valu

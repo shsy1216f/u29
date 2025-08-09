@@ -1,0 +1,15 @@
+key: AppBar_mtey0oqh
+type: AppBar
+props:
+  appBar:
+    templateType: BACK_BUTTON_CENTER_TITLE
+    titleInFlexibleSpaceBar: false
+    defaultBackButtonValue:
+      inputValue: false
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    elevationValue:
+      inputValue: 2
+    centerTitleValue:
+      inputValue: true

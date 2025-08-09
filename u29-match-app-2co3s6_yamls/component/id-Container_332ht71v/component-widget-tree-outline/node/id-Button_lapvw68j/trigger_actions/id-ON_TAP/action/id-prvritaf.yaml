@@ -1,0 +1,22 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        occupation:
+          fieldIdentifier:
+            name: occupation
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_ilnngnpa
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: prvritaf

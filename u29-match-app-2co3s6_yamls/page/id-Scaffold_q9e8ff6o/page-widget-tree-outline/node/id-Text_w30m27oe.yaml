@@ -1,0 +1,11 @@
+key: Text_w30m27oe
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: ニックネーム
+    colorValue:
+      inputValue:
+        themeColor: SECONDAR

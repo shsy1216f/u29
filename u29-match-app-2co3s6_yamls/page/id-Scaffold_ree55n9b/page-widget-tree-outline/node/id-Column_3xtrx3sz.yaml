@@ -1,0 +1,17 @@
+key: Column_3xtrx3sz
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

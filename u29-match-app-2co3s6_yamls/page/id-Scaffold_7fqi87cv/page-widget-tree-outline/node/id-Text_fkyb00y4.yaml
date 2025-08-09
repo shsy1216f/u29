@@ -1,0 +1,11 @@
+key: Text_fkyb00y4
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: 設定
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGR

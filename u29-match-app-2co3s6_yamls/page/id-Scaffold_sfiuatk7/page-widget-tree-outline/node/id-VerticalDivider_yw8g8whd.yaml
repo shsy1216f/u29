@@ -1,0 +1,18 @@
+key: VerticalDivider_yw8g8whd
+type: VerticalDivider
+props:
+  responsiveVisibility: {}
+  verticalDivider:
+    widthValue:
+      inputValue: 10
+    thicknessValue:
+      inputValue: 2
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    heightValue:
+      inputValue: 80
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}

@@ -1,0 +1,30 @@
+key: Form_12f3z5g7
+type: Form
+props:
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  form:
+    validations:
+      - isRequired: false
+        text:
+          minimumCharacters: 1
+          minimumCharactersFailMsg:
+            textValue:
+              inputValue: 入力してください
+          maximumCharacters: 10
+          maximumCharactersFailMsg:
+            textValue:
+              inputValue: 10字以内で入力してください
+          selectedOptionFailMsg:
+            textValue:
+              inputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_vetn8gyw
+    autovalidateMode: DISABLED
+  opacity:
+    opacityValue:
+      inputValue

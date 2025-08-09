@@ -1,0 +1,6 @@
+rootAction:
+  key: lex2o2bs
+  action:
+    key: kcc83sea
+trigger:
+  triggerType: ON_TAP

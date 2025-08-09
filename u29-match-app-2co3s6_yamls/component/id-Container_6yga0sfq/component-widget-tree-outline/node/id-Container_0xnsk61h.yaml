@@ -1,0 +1,57 @@
+key: Container_0xnsk61h
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 90
+      height:
+        pixelsValue:
+          inputValue: 150
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: users
+          key: wsisxbek
+  document:
+    collectionIdentifier:
+      name: users
+      key: wsisxbek
+    reference:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: userRef
+            key: ymf388
+      nodeKeyRef:
+        key: Container_6yga0sfq
+valueKey: {}

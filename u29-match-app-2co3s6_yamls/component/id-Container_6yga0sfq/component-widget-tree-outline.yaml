@@ -1,0 +1,10 @@
+node:
+  key: Container_6yga0sfq
+  children:
+    - key: Container_0xnsk61h
+      children:
+        - key: Column_zf1vdw10
+          children:
+            - key: Text_ksqx3umj
+            - key: Button_fdk9scl2
+            - key: Button_ts7m8m1u

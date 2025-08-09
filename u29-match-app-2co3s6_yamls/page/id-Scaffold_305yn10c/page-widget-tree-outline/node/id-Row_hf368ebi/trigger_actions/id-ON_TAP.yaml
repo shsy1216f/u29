@@ -1,0 +1,6 @@
+rootAction:
+  key: o7b8ycfy
+  action:
+    key: oic1h240
+trigger:
+  triggerType: ON_TAP

@@ -1,0 +1,12 @@
+key: Column_i7pw28b4
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_start
+    crossAxisAlignment: cross_axis_center
+    primary: true
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1

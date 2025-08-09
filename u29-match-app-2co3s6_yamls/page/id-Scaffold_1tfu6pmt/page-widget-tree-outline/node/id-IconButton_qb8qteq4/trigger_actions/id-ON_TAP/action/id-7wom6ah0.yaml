@@ -1,0 +1,28 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        selected_artists:
+          fieldIdentifier:
+            name: selected_artists
+          fieldValue:
+            fieldValue: SET
+            value:
+              fieldIdentifier:
+                name: selected_artists
+              variable:
+                source: LOCAL_STATE
+                baseVariable:
+                  localState:
+                    fieldIdentifier:
+                      name: selectedArtists
+                      key: 2dova
+                    stateVariableType: WIDGET_CLASS_STATE
+                nodeKeyRef:
+                  key: Scaffold_1tfu6pmt
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: 7wom6ah0

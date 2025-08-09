@@ -1,0 +1,16 @@
+key: RichTextSpan_c6mqseei
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: BODY_MEDIUM
+      textValue:
+        inputValue: ログイン
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+      fontWeightValue:
+        inputValue: w600
+parameterVa

@@ -1,0 +1,31 @@
+key: Column_uqodh3l4
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_center
+    primary: true
+  padding:
+    type: FF_PADDING_ALL
+    leftValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    topValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    rightValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    bottomValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    allValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  alignment:
+    xValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  responsiveVisibility: {}

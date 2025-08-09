@@ -1,0 +1,41 @@
+key: Image_1uh761ah
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 300
+      height:
+        pixelsValue:
+          inputValue: 400
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 20
+    cacheFadeDuration: 500
+    pathValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: USERS_DATA_FIELD
+            usersDataField:
+              name: photo_urls
+        operations:
+          - listItemAtIndex:
+              type: FIRST
+              index:
+                inputValue:
+                  serializedValue: "0"
+      mostRecentInputValue: https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw0fHx0ZWF8ZW58MHx8fHwxNzUzNTU1MTE5fDA&ixlib=rb-4.1.0&q=80&w=1080
+    format: FF_IMAGE_FORMAT_AUTO
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues: {}
+valueKey: {}

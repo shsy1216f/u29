@@ -1,0 +1,31 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: 288f4
+      setValue:
+        variable:
+          source: FUNCTION_CALL
+          functionCall:
+            values:
+              - variable:
+                  source: WIDGET_STATE
+                  baseVariable:
+                    widgetState:
+                      returnParameter:
+                        allowedDestinationTypes:
+                          - Integer
+                          - Double
+                          - Boolean
+                          - ImagePath
+                          - VideoPath
+                          - AudioPath
+                        dataType:
+                          scalarType: String
+                  nodeKeyRef:
+                    key: TextField_1e6hmcyw
+            customFunction:
+              name: katakanaToHiragana
+              key: iyzjb
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: d32cs651

@@ -1,0 +1,29 @@
+key: Text_j4czybos
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: name
+        nodeKeyRef:
+          key: ListView_om072lal
+  padding:
+    leftValue:
+      inputValue: 20
+    topValue:
+      inputValue: 10
+    bottomValue:
+      inputValue: 5
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: -1

@@ -1,0 +1,33 @@
+node:
+  key: Scaffold_1tfu6pmt
+  appBar:
+    key: AppBar_mtey0oqh
+    leading:
+      key: IconButton_qb8qteq4
+    title:
+      key: Text_sz2aqtrt
+  body:
+    key: Column_a2t2kh3u
+    children:
+      - key: TextField_1e6hmcyw
+      - key: ConditionalBuilder_phmx9bg1
+        children:
+          - key: PlaceholderWidget_ef4b6979
+            children:
+              - key: Row_njcnqp6o
+                children:
+                  - key: Container_h8oe6tvx
+                    children:
+                      - key: Text_ttmwvtk2
+          - key: PlaceholderWidget_axi1uj7r
+            children:
+              - key: ListView_9zt3q0f5
+                children:
+                  - key: Column_bjgxfqyo
+                    children:
+                      - key: Text_tejffxt1
+                      - key: Wrap_ngz9dpqx
+                        children:
+                          - key: Container_5gzhb2ln
+                            children:
+                              - key: Text_sztfjn26

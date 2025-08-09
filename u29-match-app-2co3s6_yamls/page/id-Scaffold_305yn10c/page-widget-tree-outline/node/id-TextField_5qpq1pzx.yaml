@@ -1,0 +1,53 @@
+key: TextField_5qpq1pzx
+type: TextField
+props:
+  padding:
+    topValue:
+      inputValue: 10
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 8
+      hintStyle:
+        themeStyle: LABEL_MEDIUM
+      labelStyle:
+        themeStyle: LABEL_MEDIUM
+      hintText:
+        textValue:
+          inputValue: 自己紹介を入力
+      filledValue:
+        inputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 1
+      denseValue:
+        inputValue: true
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+    initialText:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USERS_DATA_FIELD
+              usersDataField:
+                name: about_me
+    width:
+      percentOfScreenSizeValue:
+        inputValue: 75
+    minLinesValue:
+      inputValue: 5
+    autofocusValue:
+      inputValue: false
+    cursorColorValue:
+      inputValue:
+        themeColor

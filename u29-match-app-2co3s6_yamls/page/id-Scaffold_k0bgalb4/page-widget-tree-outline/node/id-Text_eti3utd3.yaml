@@ -1,0 +1,23 @@
+key: Text_eti3utd3
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    selectable: false
+    textValue:
+      inputValue: もしくは
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    rightValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    bottomValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+parameterVa

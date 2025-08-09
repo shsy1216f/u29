@@ -1,0 +1,15 @@
+identifier:
+  name: convertJsonToStringList
+  key: kqbi9
+arguments:
+  - identifier:
+      name: inputJsonList
+      key: 91xxd4
+    dataType:
+      scalarType: JSON
+      nonNullable: true
+returnParameter:
+  dataType:
+    listType:
+      scalarType: String
+    nonNullable: true

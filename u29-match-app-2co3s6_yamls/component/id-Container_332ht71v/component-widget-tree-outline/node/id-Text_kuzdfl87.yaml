@@ -1,0 +1,16 @@
+key: Text_kuzdfl87
+type: Text
+props:
+  text:
+    themeStyle: TITLE_SMALL
+    selectable: false
+    textValue:
+      inputValue: 職業を編集
+  padding:
+    topValue:
+      inputValue: 15
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inpu

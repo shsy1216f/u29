@@ -1,0 +1,67 @@
+key: TextField_1e6hmcyw
+type: TextField
+props:
+  padding:
+    topValue:
+      inputValue: 20
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+      hintStyle:
+        themeStyle: LABEL_MEDIUM
+      labelStyle:
+        themeStyle: LABEL_MEDIUM
+      hintText:
+        textValue:
+          inputValue: 推しを検索
+      filledValue:
+        inputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 1
+      denseValue:
+        inputValue: true
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+    width:
+      percentOfScreenSizeValue:
+        inputValue: 75
+    maxLinesValue:
+      inputValue: 1
+    autofocusValue:
+      inputValue: false
+    cursorColorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    leadingIconValue:
+      inputValue:
+        iconDataValue:
+          inputValue:
+            codePoint: 58727
+            family: MaterialIcons
+            matchTextDirection: false
+            name: search
+    enableInteractiveSelection:
+      inputValue: true
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues:
+  parameterPasses: {}
+va

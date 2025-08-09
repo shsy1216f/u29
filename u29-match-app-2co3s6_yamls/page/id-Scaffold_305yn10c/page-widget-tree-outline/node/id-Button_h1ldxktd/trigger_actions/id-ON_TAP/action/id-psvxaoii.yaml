@@ -1,0 +1,29 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        about_me:
+          fieldIdentifier:
+            name: about_me
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_5qpq1pzx
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: psvxaoii

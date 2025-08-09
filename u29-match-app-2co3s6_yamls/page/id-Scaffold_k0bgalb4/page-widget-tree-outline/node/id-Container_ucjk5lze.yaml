@@ -1,0 +1,60 @@
+key: Container_ucjk5lze
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 100
+          mostRecentInputValue: 100
+      height:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+    boxDecoration:
+      gradient:
+        colors:
+          - color:
+              inputValue:
+                color:
+                  themeColor: PRIMARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "0"
+          - color:
+              inputValue:
+                color:
+                  themeColor: TERTIARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "1"
+        angleValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+    childAlignment:
+      xValue:
+        inputValue: 0
+        mostRecentInputValue: 0
+      yValue:
+        inputValue: -1
+        mostRecentInputValue: -1
+    maxDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  expanded:
+    expandedType: EXPANDED
+    flexValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  responsiveVisibility: {}
+name: formContainer
+parameterValues: {}

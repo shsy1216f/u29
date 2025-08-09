@@ -1,0 +1,23 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        gender:
+          fieldIdentifier:
+            name: gender
+          variable:
+            source: LOCAL_STATE
+            baseVariable:
+              localState:
+                fieldIdentifier:
+                  name: selectedGender
+                  key: v93a7
+                stateVariableType: WIDGET_CLASS_STATE
+            nodeKeyRef:
+              key: Scaffold_vsbdq9vb
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: yrbfe4zh

@@ -1,0 +1,28 @@
+key: Container_thix7j0a
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 24
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 10
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: UNEXPANDED

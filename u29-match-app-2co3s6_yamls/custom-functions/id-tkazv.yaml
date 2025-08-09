@@ -1,0 +1,14 @@
+identifier:
+  name: getTextLengthError
+  key: tkazv
+arguments:
+  - identifier:
+      name: inputText
+      key: yxh44p
+    dataType:
+      scalarType: String
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: String
+    nonNullable: true

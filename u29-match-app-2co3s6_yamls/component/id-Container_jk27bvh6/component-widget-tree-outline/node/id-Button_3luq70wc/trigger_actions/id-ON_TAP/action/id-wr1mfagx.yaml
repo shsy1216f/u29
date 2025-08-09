@@ -1,0 +1,22 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        alcohol:
+          fieldIdentifier:
+            name: alcohol
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_dczbnsny
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: wr1mfagx

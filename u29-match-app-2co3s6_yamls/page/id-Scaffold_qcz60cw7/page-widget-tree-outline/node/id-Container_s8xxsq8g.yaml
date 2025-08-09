@@ -1,0 +1,49 @@
+key: Container_s8xxsq8g
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 300
+      height:
+        pixelsValue:
+          inputValue: 400
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 20
+      gradient:
+        colors:
+          - color:
+              inputValue:
+                color:
+                  value: "3355443"
+            transitionPoint:
+              inputValue:
+                serializedValue: "0.75"
+          - color:
+              inputValue:
+                color:
+                  value: "2570269491"
+            transitionPoint:
+              inputValue:
+                serializedValue: "1.0"
+        angleValue:
+          inputValue: 0
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

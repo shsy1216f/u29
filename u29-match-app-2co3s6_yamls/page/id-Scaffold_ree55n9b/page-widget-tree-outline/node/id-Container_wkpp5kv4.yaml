@@ -1,0 +1,61 @@
+key: Container_wkpp5kv4
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 150
+      height:
+        pixelsValue:
+          inputValue: 200
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ONLY
+        topLeftValue:
+          inputValue: 20
+        bottomLeftValue:
+          inputValue: 20
+        allValue:
+          inputValue: 20
+      gradient:
+        colors:
+          - color:
+              inputValue:
+                color:
+                  themeColor: PRIMARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "0"
+          - color:
+              inputValue:
+                color:
+                  themeColor: SECONDARY
+            transitionPoint:
+              inputValue:
+                serializedValue: "1"
+        angleValue:
+          inputValue: 0
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_TEXT
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

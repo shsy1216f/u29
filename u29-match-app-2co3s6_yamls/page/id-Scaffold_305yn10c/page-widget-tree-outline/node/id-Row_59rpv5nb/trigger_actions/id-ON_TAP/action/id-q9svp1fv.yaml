@@ -1,0 +1,23 @@
+bottomSheet:
+  passedParameters:
+    parameterPasses:
+      ymf388:
+        paramIdentifier:
+          name: userRef
+          key: ymf388
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USER_REFERENCE
+    widgetClassNodeKeyRef:
+      key: Container_6yga0sfq
+  isDismiss: false
+  backgroundColor:
+    inputValue:
+      color:
+        value: "0"
+  barrierColor: {}
+  componentClassNodeKeyRef:
+    key: Container_6yga0sfq
+key: q9svp1fv

@@ -1,0 +1,49 @@
+key: PageView_4zuzmg78
+type: PageView
+props:
+  pageView:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 500
+    scrollDirection: FF_AXIS_HORIZONTAL
+    margin: {}
+    indicatorOptions:
+      hasIndicator: true
+      alignment:
+        xValue:
+          inputValue: 0
+        yValue:
+          inputValue: -1
+      indicatorPadding:
+        topValue:
+          inputValue: 10
+      expansionFactor: 5
+      outline: false
+      spacingValue:
+        inputValue: 10
+      borderRadiusValue:
+        inputValue: 8
+      dotWidthValue:
+        inputValue: 8
+      dotHeightValue:
+        inputValue: 8
+      inactiveColorValue:
+        inputValue:
+          value: "1744830463"
+      activeColorValue:
+        inputValue:
+          value: "3422552063"
+    allowScrolling: false
+    updatePageOnSwipe: false
+    initialPageIndexValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

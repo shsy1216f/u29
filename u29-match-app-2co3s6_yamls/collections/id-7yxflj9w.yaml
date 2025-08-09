@@ -1,0 +1,27 @@
+identifier:
+  name: artists
+  key: 7yxflj9w
+fields:
+  artist_name:
+    identifier:
+      name: artist_name
+    dataType:
+      scalarType: String
+  category_ids:
+    identifier:
+      name: category_ids
+    dataType:
+      listType:
+        scalarType: Integer
+  furigana:
+    identifier:
+      name: furigana
+    dataType:
+      scalarType: String
+  search_keywords:
+    identifier:
+      name: search_keywords
+    dataType:
+      listType:
+        scalarType: String
+description: ""

@@ -1,0 +1,50 @@
+key: Text_pikedl6i
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        operations:
+          - numberFormat: {}
+        functionCall:
+          values:
+            - variable:
+                source: FIRESTORE_REQUEST
+                baseVariable:
+                  firestore: {}
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: birthDate
+                nodeKeyRef:
+                  key: Scaffold_wt0lk7uv
+          customFunction:
+            name: calculateAge
+            key: 859yr
+      mostRecentInputValue: Hello World
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    maxLinesValue:
+      inputValue: 1
+  padding:
+    leftValue:
+      inputValue: 5
+    bottomValue:
+      inputValue: 6
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,37 @@
+key: Text_gsxuad22
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        operations:
+          - numberFormat: {}
+        functionCall:
+          values:
+            - variable:
+                source: FIREBASE_AUTH_USER
+                baseVariable:
+                  auth:
+                    property: USERS_DATA_FIELD
+                    usersDataField:
+                      name: birthDate
+          customFunction:
+            name: calculateAge
+            key: 859yr
+      mostRecentInputValue: 21歳
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: 

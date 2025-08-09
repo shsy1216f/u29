@@ -1,0 +1,6 @@
+rootAction:
+  key: fn87gmt4
+  action:
+    key: d32cs651
+trigger:
+  triggerType: ON_TEXTFIELD_CHANGE

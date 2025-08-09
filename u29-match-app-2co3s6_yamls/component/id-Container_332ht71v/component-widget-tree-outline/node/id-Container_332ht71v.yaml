@@ -1,0 +1,10 @@
+key: Container_332ht71v
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: EditOccupationSheet
+isDummyRoot: true

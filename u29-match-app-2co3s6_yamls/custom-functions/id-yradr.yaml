@@ -1,0 +1,22 @@
+identifier:
+  name: removeStringFromList
+  key: yradr
+arguments:
+  - identifier:
+      name: photoList
+      key: 306t1y
+    dataType:
+      listType:
+        scalarType: ImagePath
+      nonNullable: true
+  - identifier:
+      name: indexToRemove
+      key: 9mb37y
+    dataType:
+      scalarType: Integer
+      nonNullable: true
+returnParameter:
+  dataType:
+    listType:
+      scalarType: String
+    nonNullable: true

@@ -1,0 +1,13 @@
+key: f54t32ub
+uploadData:
+  settings:
+    allowedTypes:
+      photo: true
+      video: false
+      file: false
+    source: GALLERY
+    galleryOrCameraPickerStyle: {}
+    showSnackBar: false
+    localFileVariable: {}
+  destination: FIREBASE
+  actionName: UploadData_2

@@ -1,0 +1,27 @@
+key: Text_hl36vo4l
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: DISPLAY_NAME
+      mostRecentInputValue: yu
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 1
+    yValue:
+      inputValue: 0
+  expanded:
+    expandedType: FLEXIBLE
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

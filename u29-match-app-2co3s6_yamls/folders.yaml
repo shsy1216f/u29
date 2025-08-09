@@ -1,0 +1,22 @@
+rootFolders:
+  - key: vf1m3ne2
+    name: pages
+  - key: 4prhzipb
+    name: auth
+  - key: e4wf961g
+    name: Main
+widgetClassKeyToFolderKey:
+  Scaffold_k0bgalb4: 4prhzipb
+  Scaffold_q9e8ff6o: 4prhzipb
+  Scaffold_vsbdq9vb: 4prhzipb
+  Scaffold_f5g1qdve: 4prhzipb
+  Scaffold_9snsqg37: 4prhzipb
+  Scaffold_6umf3dsy: 4prhzipb
+  Scaffold_yevm5ypg: 4prhzipb
+  Scaffold_wt0lk7uv: 4prhzipb
+  Scaffold_ree55n9b: e4wf961g
+  Scaffold_sfiuatk7: e4wf961g
+  Scaffold_qcz60cw7: e4wf961g
+  Scaffold_44vazab5: 4prhzipb
+  Scaffold_7fqi87cv: e4wf961g
+  Scaffold_305yn10c: e4wf961g

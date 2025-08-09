@@ -1,0 +1,25 @@
+identifier:
+  name: swipes
+  key: gtj6aiod
+fields:
+  swiperId:
+    identifier:
+      name: swiperId
+    dataType:
+      scalarType: String
+  swipedId:
+    identifier:
+      name: swipedId
+    dataType:
+      scalarType: String
+  action:
+    identifier:
+      name: action
+    dataType:
+      scalarType: String
+  timestamp:
+    identifier:
+      name: timestamp
+    dataType:
+      scalarType: DateTime
+description: ""

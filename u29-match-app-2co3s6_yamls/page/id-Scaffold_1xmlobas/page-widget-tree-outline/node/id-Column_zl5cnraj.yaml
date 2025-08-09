@@ -1,0 +1,13 @@
+key: Column_zl5cnraj
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

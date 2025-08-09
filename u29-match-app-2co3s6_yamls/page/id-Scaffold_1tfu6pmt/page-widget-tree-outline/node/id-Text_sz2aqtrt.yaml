@@ -1,0 +1,11 @@
+key: Text_sz2aqtrt
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    isCustomFont: false
+    textValue:
+      inputValue: 趣味
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGR

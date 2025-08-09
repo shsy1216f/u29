@@ -1,0 +1,16 @@
+name: ProfileSetupPage_Hobby
+description: ""
+params: {}
+node:
+  key: Scaffold_ree55n9b
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: currentPageIndex
+          key: t5y8w
+        dataType:
+          scalarType: Integer
+          nonNullable: true
+      serializedDefaultValue:
+        - "0"

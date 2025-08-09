@@ -1,0 +1,273 @@
+key: DropDown_cloko7no
+type: DropDown
+props:
+  padding:
+    topValue:
+      inputValue: 20
+  dropDown:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 75
+      height:
+        pixelsValue:
+          inputValue: 40
+    textStyle:
+      themeStyle: LABEL_MEDIUM
+    margin:
+      leftValue:
+        inputValue: 12
+      rightValue:
+        inputValue: 12
+    hintText:
+      textValue:
+        inputValue: 都道府県を選択
+    valueType:
+      dataType:
+        scalarType: String
+    searchHintText:
+      themeStyle: LABEL_MEDIUM
+      textValue:
+        inputValue: Search...
+    fixPosition: true
+    searchTextStyle:
+      themeStyle: BODY_MEDIUM
+    label:
+      themeStyle: LABEL_MEDIUM
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+    elevationValue:
+      inputValue: 2
+    borderRadiusValue:
+      inputValue: 24
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 0
+    hidesUnderlineValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 63531
+            family: MaterialIcons
+            matchTextDirection: false
+            name: keyboard_arrow_down_rounded
+    optionsLabels:
+      values:
+        - translatableText:
+            textValue:
+              inputValue: 北海道
+        - translatableText:
+            textValue:
+              inputValue: 青森県
+        - translatableText:
+            textValue:
+              inputValue: 岩手県
+        - translatableText:
+            textValue:
+              inputValue: 宮城県
+        - translatableText:
+            textValue:
+              inputValue: 秋田県
+        - translatableText:
+            textValue:
+              inputValue: 山形県
+        - translatableText:
+            textValue:
+              inputValue: 福島県
+        - translatableText:
+            textValue:
+              inputValue: 茨城県
+        - translatableText:
+            textValue:
+              inputValue: 栃木県
+        - translatableText:
+            textValue:
+              inputValue: 群馬県
+        - translatableText:
+            textValue:
+              inputValue: 埼玉県
+        - translatableText:
+            textValue:
+              inputValue: 千葉県
+        - translatableText:
+            textValue:
+              inputValue: 東京都
+        - translatableText:
+            textValue:
+              inputValue: 神奈川県
+        - translatableText:
+            textValue:
+              inputValue: 山梨県
+        - translatableText:
+            textValue:
+              inputValue: 長野県
+        - translatableText:
+            textValue:
+              inputValue: 新潟県
+        - translatableText:
+            textValue:
+              inputValue: 富山県
+        - translatableText:
+            textValue:
+              inputValue: 石川県
+        - translatableText:
+            textValue:
+              inputValue: 福井県
+        - translatableText:
+            textValue:
+              inputValue: 岐阜県
+        - translatableText:
+            textValue:
+              inputValue: 静岡県
+        - translatableText:
+            textValue:
+              inputValue: 愛知県
+        - translatableText:
+            textValue:
+              inputValue: 三重県
+        - translatableText:
+            textValue:
+              inputValue: 滋賀県
+        - translatableText:
+            textValue:
+              inputValue: 京都府
+        - translatableText:
+            textValue:
+              inputValue: 大阪府
+        - translatableText:
+            textValue:
+              inputValue: 兵庫県
+        - translatableText:
+            textValue:
+              inputValue: 奈良県
+        - translatableText:
+            textValue:
+              inputValue: 和歌山県
+        - translatableText:
+            textValue:
+              inputValue: 鳥取県
+        - translatableText:
+            textValue:
+              inputValue: 島根県
+        - translatableText:
+            textValue:
+              inputValue: 岡山県
+        - translatableText:
+            textValue:
+              inputValue: 広島県
+        - translatableText:
+            textValue:
+              inputValue: 山口県
+        - translatableText:
+            textValue:
+              inputValue: 徳島県
+        - translatableText:
+            textValue:
+              inputValue: 香川県
+        - translatableText:
+            textValue:
+              inputValue: 愛媛県
+        - translatableText:
+            textValue:
+              inputValue: 高知県
+        - translatableText:
+            textValue:
+              inputValue: 福岡県
+        - translatableText:
+            textValue:
+              inputValue: 佐賀県
+        - translatableText:
+            textValue:
+              inputValue: 長崎県
+        - translatableText:
+            textValue:
+              inputValue: 熊本県
+        - translatableText:
+            textValue:
+              inputValue: 大分県
+        - translatableText:
+            textValue:
+              inputValue: 宮崎県
+        - translatableText:
+            textValue:
+              inputValue: 鹿児島県
+        - translatableText:
+            textValue:
+              inputValue: 沖縄県
+        - translatableText:
+            textValue:
+              inputValue: 海外
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: API_CALL
+                baseVariable:
+                  apiCall: {}
+                operations:
+                  - apiResponseField:
+                      responseField: JSON_BODY
+                  - jsonPathOperation:
+                      jsonPath: $.response.prefecture
+                nodeKeyRef:
+                  key: DropDown_cloko7no
+          customFunction:
+            name: convertJsonToStringList
+            key: kqbi9
+    optionsValues:
+      values:
+        - serializedValue: Option 1
+        - serializedValue: Option 2
+        - serializedValue: Option 3
+        - serializedValue: "3"
+        - serializedValue: "4"
+        - serializedValue: "5"
+        - serializedValue: "6"
+        - serializedValue: "7"
+        - serializedValue: "8"
+        - serializedValue: "9"
+        - serializedValue: "10"
+        - serializedValue: "11"
+        - serializedValue: "12"
+        - serializedValue: "13"
+        - serializedValue: "14"
+        - serializedValue: "15"
+        - serializedValue: "16"
+        - serializedValue: "17"
+        - serializedValue: "18"
+        - serializedValue: "19"
+        - serializedValue: "20"
+        - serializedValue: "21"
+        - serializedValue: "22"
+        - serializedValue: "23"
+        - serializedValue: "24"
+        - serializedValue: "25"
+        - serializedValue: "26"
+        - serializedValue: "27"
+        - serializedValue: "28"
+        - serializedValue: "29"
+        - serializedValue: "30"
+        - serializedValue: "31"
+        - serializedValue: "32"
+        - serializedValue: "33"
+        - serializedValue: "34"
+        - serializedValue: "35"
+        - serializedValue: "36"
+        - serializedValue: "37"
+        - serializedValue: "38"
+        - serializedValue: "39"
+        - serializedValue: "40"
+        - serializedValue: "41"
+        - serializedValue: "42"
+        - se

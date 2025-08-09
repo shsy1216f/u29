@@ -1,0 +1,90 @@
+key: TextField_bptmsqq3
+type: TextField
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+  textField:
+    textStyle:
+      themeStyle: BODY_LARGE
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 12
+          mostRecentInputValue: 12
+        topRightValue:
+          inputValue: 12
+          mostRecentInputValue: 12
+        bottomLeftValue:
+          inputValue: 12
+          mostRecentInputValue: 12
+        bottomRightValue:
+          inputValue: 12
+          mostRecentInputValue: 12
+        allValue:
+          inputValue: 12
+          mostRecentInputValue: 12
+      labelStyle:
+        themeStyle: LABEL_LARGE
+      labelText:
+        textValue:
+          inputValue: パスワード
+      hintText: {}
+      borderColorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      filledValue:
+        inputValue: true
+        mostRecentInputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 2
+        mostRecentInputValue: 2
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+        mostRecentInputValue:
+          themeColor: ERROR
+      focusBorderColorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+    passwordField: true
+    keyboardType: TEXT
+    showClearButton: false
+    width:
+      pixelsValue:
+        inputValue: Infinity
+        mostRecentInputValue: Infinity
+    autoFillHint: PASSWORD
+    submitType: SUBMIT_TYPE_NONE
+    maxLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    autofocusValue:
+      inputValue: true
+      mostRecentInputValue: true
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: SECONDARY_TEXT
+          mostRecentInputValue:
+            themeColor: SECONDARY_TEXT
+  responsiveVisibility: {}
+name: password
+parameter

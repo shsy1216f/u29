@@ -1,0 +1,16 @@
+name: ProfileSetupPage_Prefecture
+description: ""
+params: {}
+node:
+  key: Scaffold_f5g1qdve
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: selectedPrefecture
+          key: v93a7
+        defaultValue:
+          serializedValue: ""
+        dataType:
+          scalarType: String
+          nonNullable: false

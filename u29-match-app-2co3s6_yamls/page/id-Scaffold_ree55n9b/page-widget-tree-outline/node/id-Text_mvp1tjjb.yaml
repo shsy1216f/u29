@@ -1,0 +1,23 @@
+key: Text_mvp1tjjb
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: から探す
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valu

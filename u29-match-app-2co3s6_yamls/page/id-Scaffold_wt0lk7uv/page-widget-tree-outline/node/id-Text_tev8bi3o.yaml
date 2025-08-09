@@ -1,0 +1,38 @@
+key: Text_tev8bi3o
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: job
+        nodeKeyRef:
+          key: Scaffold_wt0lk7uv
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+  padding:
+    leftValue:
+      inputValue: 5
+    bottomValue:
+      inputValue: 6
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

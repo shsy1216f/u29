@@ -1,0 +1,6 @@
+rootAction:
+  key: psb2v6zt
+  action:
+    key: 0k8irjwz
+trigger:
+  triggerType: ON_TEXTFIELD_CHANGE

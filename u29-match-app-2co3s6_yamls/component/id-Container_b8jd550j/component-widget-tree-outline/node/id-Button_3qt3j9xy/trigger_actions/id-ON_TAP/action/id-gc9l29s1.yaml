@@ -1,0 +1,22 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        prefecture_name:
+          fieldIdentifier:
+            name: prefecture_name
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: DropDown_k6ymvj4e
+    reference:
+      source: FIREBASE_AUTH_USER
+      baseVariable:
+        auth:
+          property: USER_REFERENCE
+key: gc9l29s1

@@ -1,0 +1,13 @@
+key: Column_u1o76hey
+type: Column
+props:
+  column:
+    primary: true
+  padding:
+    type: FF_PADDING_ONLY
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

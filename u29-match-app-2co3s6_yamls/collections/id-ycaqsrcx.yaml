@@ -1,0 +1,29 @@
+identifier:
+  name: hobbies
+  key: ycaqsrcx
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+  category_id:
+    identifier:
+      name: category_id
+    dataType:
+      scalarType: String
+  order:
+    identifier:
+      name: order
+    dataType:
+      scalarType: Integer
+  category:
+    identifier:
+      name: category
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: hobby_categories
+          key: 35aqyq7k
+description: ""

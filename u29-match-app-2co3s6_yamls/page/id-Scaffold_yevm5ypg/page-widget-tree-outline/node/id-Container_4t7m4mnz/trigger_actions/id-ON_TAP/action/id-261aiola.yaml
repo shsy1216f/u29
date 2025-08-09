@@ -1,0 +1,17 @@
+localStateUpdate:
+  updates:
+    - fieldIdentifier:
+        key: v93a7
+      setValue:
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              actionType: UPLOAD_DATA_URL
+              actionKeyRef:
+                key: j8k3cd9t
+          nodeKeyRef:
+            key: Container_4t7m4mnz
+  updateType: WIDGET
+  stateVariableType: WIDGET_CLASS_STATE
+key: 261aiola

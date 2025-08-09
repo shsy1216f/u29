@@ -1,0 +1,13 @@
+key: Text_8459fqvg
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    selectable: false
+    textValue:
+      inputValue: Hello World
+  padding:
+    leftValue:
+      inputValue: 4
+    rightValue:
+      inputValue: 4
